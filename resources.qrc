@@ -1,0 +1,18 @@
+<RCC>
+  <qresource prefix="/">
+    <file>icon.png</file>
+    <file>qml/qmldir</file>
+    <file>qml/main.qml</file>
+    <file>qml/Theme.qml</file>
+    <file>qml/Glyph.qml</file>
+    <file>qml/AppButton.qml</file>
+    <file>qml/AppField.qml</file>
+    <file>qml/Segmented.qml</file>
+    <file>qml/Stepper.qml</file>
+    <file>qml/Toggle.qml</file>
+    <file>qml/SectionLabel.qml</file>
+    <file>qml/TaskCard.qml</file>
+    <file>qml/StatTile.qml</file>
+    <file>qml/Confetti.qml</file>
+  </qresource>
+</RCC>

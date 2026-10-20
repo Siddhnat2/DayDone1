@@ -47,12 +47,21 @@ jobs:
           done
           ls -la wheels
 
+      - name: Compile UI resources
+        run: pyside6-rcc resources.qrc -o rc_resources.py
+
       - name: Build APK
         run: |
           set -o pipefail
           PY=$(ls wheels/pyside6-*aarch64.whl | head -1)
           SH=$(ls wheels/shiboken6-*aarch64.whl | head -1)
-          pyside6-android-deploy --name DayDone --wheel-pyside "$PY" --wheel-shiboken "$SH" --force -v 2>&1 | tee build.log
+          # 1) create the deploy config first so we can set our own app icon
+          pyside6-android-deploy --name DayDone --wheel-pyside "$PY" --wheel-shiboken "$SH" --force --init || true
+          if [ -f pysidedeploy.spec ]; then
+            sed -i "s|^icon = .*|icon = $PWD/icon.png|" pysidedeploy.spec
+          fi
+          # 2) real build. `yes` answers the Android SDK licence prompt ("Accept? (y/N)")
+          { yes 2>/dev/null || true; } | pyside6-android-deploy --name DayDone --wheel-pyside "$PY" --wheel-shiboken "$SH" --force -v 2>&1 | tee build.log
 
       - name: Collect APK/AAB files
         if: always()
@@ -64,13 +73,17 @@ jobs:
           echo "---- project dir"; ls -la
           echo "---- spec file"; cat pysidedeploy.spec 2>/dev/null | head -60 || true
 
+      - name: Fail if no APK was produced
+        run: |
+          ls out/*.apk >/dev/null 2>&1 || { echo "No APK produced - see build.log artifact"; exit 1; }
+
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: DayDone-apk
           path: out/
           include-hidden-files: true
-          if-no-files-found: warn
+          if-no-files-found: error
 
       - name: Upload build log
         if: always()

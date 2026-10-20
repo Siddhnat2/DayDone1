@@ -9,6 +9,16 @@ from PySide6.QtQml import QQmlApplicationEngine
 from db import Database
 import notifier
 
+# UI files are compiled into rc_resources.py (pyside6-rcc resources.qrc -o rc_resources.py)
+# so they ship inside the app on Android. Falls back to loose files when running from source.
+try:
+    import rc_resources  # noqa: F401
+    QML_URL = QUrl("qrc:/qml/main.qml")
+    ICON_PATH = ":/icon.png"
+except ImportError:
+    QML_URL = QUrl.fromLocalFile(str(Path(__file__).parent / "qml" / "main.qml"))
+    ICON_PATH = str(Path(__file__).parent / "icon.png")
+
 PRIORITY = {1: "Low", 2: "Normal", 3: "High"}
 
 
@@ -130,16 +140,14 @@ class Backend(QObject):
 def main():
     app = QGuiApplication(sys.argv)
     app.setApplicationName("DayDone")
-    icon = Path(__file__).parent / "icon.png"
-    if icon.exists():
-        app.setWindowIcon(QIcon(str(icon)))
+    app.setWindowIcon(QIcon(ICON_PATH))
     data_dir = Path(QStandardPaths.writableLocation(QStandardPaths.AppDataLocation))
     data_dir.mkdir(parents=True, exist_ok=True)
     backend = Backend(str(data_dir / "daydone.db"))
 
     engine = QQmlApplicationEngine()
     engine.rootContext().setContextProperty("backend", backend)
-    engine.load(QUrl.fromLocalFile(str(Path(__file__).parent / "qml" / "main.qml")))
+    engine.load(QML_URL)
     if not engine.rootObjects():
         sys.exit(-1)
 
