@@ -45,21 +45,22 @@ jobs:
           echo "PySide6 $VER"
           BASE="https://download.qt.io/official_releases/QtForPython"
           mkdir -p wheels
+          # Qt publishes these wheels directly in each package directory, not /<package>/<version>/.
           for P in pyside6 shiboken6; do
-            INDEX="$BASE/$P/$VER/"
-            echo "Looking for $P Android wheel at $INDEX"
+            INDEX="$BASE/$P/"
+            echo "Searching official wheel index: $INDEX"
             PAGE=$(curl --fail --silent --show-error --location "$INDEX")
-            F=$(printf '%s' "$PAGE" | grep -oE 'href="[^"]*android_aarch64\.whl"' | cut -d'"' -f2 | grep -i "$VER" | head -1 || true)
+            F=$(printf '%s' "$PAGE" | grep -oE 'href="[^"]*6\.8\.3-6\.8\.3-cp311-cp311-android_aarch64\.whl"' | cut -d'"' -f2 | head -1 || true)
             if [ -z "$F" ]; then
-              echo "ERROR: no android_aarch64 wheel found for $P $VER in $INDEX"
-              printf '%s' "$PAGE" | grep -oE 'href="[^"]*android[^"]*"' | head -30 || true
+              echo "ERROR: Android aarch64 wheel for $P 6.8.3 was not found at $INDEX"
+              printf '%s' "$PAGE" | grep -oE 'href="[^"]*android_aarch64\.whl"' | head -30 || true
               exit 1
             fi
             echo "$P -> $F"
             wget --quiet --show-progress "$INDEX$F" -O "wheels/$(basename "$F")"
+            test -s "wheels/$(basename "$F")"
           done
           ls -lh wheels
-
       - name: Compile Qt resources
         run: pyside6-rcc --no-compress resources.qrc -o rc_resources.py
 
