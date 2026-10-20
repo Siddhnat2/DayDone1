@@ -1875,61 +1875,215 @@ letterSpacing: 1\
 talization: Font\
 .AllUppercase\x0a}\x0a\
 \
-\x00\x00\x03L\
-(\
-\xb5/\xfd`\xe2\x0b\x15\x1a\x00f\x1e^ \x00\xb7\x1b\
-\x16\x1c\x8a#\xb8<\x10\x1b\xd9B\xae\x91j:}\xdc\
-\x1d\xef\xfb\x1d\x8a\x8e7\x11UU\x13\xd5\xbcQ\x00R\
-\x00U\x007\xe36\xe5\xeb {Aa\x7f\xdd]\xa1\
-*,\xe0\xe1\x8f|\xd3\xa6\xeb#\xa73\xfc\x5c}\xf3\
-\xbd\x00\x1bg\xc7x\xb6\x8b\xf3\xf3]\xe8\xef\xd8\x8f\xb7\
-\xadW\xe39\xaa\x93\xd1\xb3\xab\xedJ\x9aw\xd3\xb8\xda\
-\xf0\xfb\xda\x1c\xba\xa5\x0b\x85\xaa\xf2\x84/\x9a\xe4I\xe7\
-kA\x9f\x0f\xd6\x95K\x9e\xabed\x17\x1b\xecR\x0e\
-\xfb\xce\xd1wzJ$p\xe5\xfaS\x92\xb1\x8bB~\
-]\xacsd0\xaa\x15\xdd\xdc\x9fX\x1f\xcf\xa7\xf3s\
-\x9dy\x14\xdf\xc7o\xcc\x9b'I\xccco\xd6d\x7f\
-~z\xdct\xfam\x00\xae\xa56\xb4<\xa1\x8f\xa1\xd5\
-\x9f\x7ffm\xb1~}-'#1&\xec\xc13k\
-\x1d\xc79\xb64\xdc6,\xa2 \xc7\xd4;\xe5I\xaf\
-\xd3\x12\x01,\xd06\xac\x09X \xb1\xcbV|d?\
-\x01\x10\x04\xfbj\xce\x8f\xf9E\xd7\xd4\xb7\x0fkSE\
-\xf6Z\x0d6h2\x0a\x8d[\xd0\x17\xafO)}\x0e\
-\xd8NM\x99\xe2\xd8/\x16\xb062U\xaa\xea\x0c\xde\
-\x96e\x9b&\xb5\xad\x93\x1d\xa5\xae\xc9:\xc4A\x1e2\
-\xd9\xc9\xc3\x88\xe7\xd54MJ\x8d\xe3\x0e\xd9\x86\x90\x1e\
-\xc7i\xd9\x151\xae\xff\xc9@9\x1c\xe7m^\xe6u\
-r\xd3<\xc9aY\xbes\xe42\x87\x04\x83\x08d\x13\
-\x0c\x9b!\xf3\x18l:`Wx\xe7`\x90\xb5\xa2\xbf\
-\x13\x86\xbf\x02\x80\xd1\xa8\xb1544#e$)\x14\
-\x9a\x03@\x84\x10bUV\x07\xa2@H\xaeA\x09\x10\
-\x16AD\x12c\x08#\x01\x12\x91hJ\xd1j1\x19\
-i\x94\x8b\xdb\xbb\x122i\xcd\x93\xee\x89\x0c\x7f\xd6\xbc\
-l6\x8e\xb1\x83\x95gS&0Z\xd0\xee\xe1\xf6\xa0\
-\xc2\x10\xe7\x93\xd0A\xa2\xc1{\x1f\x07\x09w\x5c\x12\x81\
-\x84\x84\xf2\xdc4\xc5\xb1u=Z\x06/{\xf0k\x8b\
-\xa7\xda;\xaa\xfdH\xe0\xa7 \xd5\xadLG!q\xd8\
-9\xaf\xe3\x8cHF\x83\x90\x8c L\x98\x1ed\xc1\x16\
-\x00\x80\x82~(\x8aH\x84&\xf6\xcc\xdfzo`X\
-V\xe0\xbf\xf0\xc5\x0f\xaeW\xc0C\x98\x1a\xd8v0\xe0\
-W\x02\xa3I`\xd00D\x1e\x18\x0f\xce\x95p\x80J\
-\xe3\x0a\x918\x8f\x91p)>\xe9\xc9W\xfa\x00\x97\x9b\
-e=x\xbb\xb8\xff\xf7e.\x1e~\x9b\xc8 q>\
-\xc8\xd6*\x01\xb3~C\xce\x094\xdf\xab\xf9fg\x85\
-\xd1\x9d\x18h\x10wyw\xef\x11\x96\xef\x92=N9\
-\xc1?\xb1n\xf9\xc2T5F<\xb0i\xf1$^\xb2\
-\xa9\xe1\xc1\xa5`3\xb2\x91\x0c7\xd1Nf\xa9(\xdf\
-\xd1\xb2k\xc3\x98kN\xbb\x97+\xc0-g\x94\xcc\xc8\
-\x97\xb5\xc6\xad\xac\xaa\xa1L\xfb\xd4\xc9%\xee%|j\
-\x04\xa96\xb8$1\xa2\xeaQK_\xbd\x0cj\x13f\
-\xe9\xa6\xac:\x06\xf0\xb1\x8dxw\xd1\x12\x88\xda\xc4\xd7\
-\x18\x9c\x83\xdd\xbaOj%\xf4\xd2\xe0@\x8c\xdeR\xc9\
-n@.B\x02\x0a\x0d\xd6\x01\x06\xf1\xe6\xb6_\x5c\xdf\
-\x22\xb4\x7f<b\x0cs\x81\xa2\x19\xd6\xff\xa8\x02}[\
-vWT\x9b\xe6m\xb8v,%\x88+*X-N\
-\x9f\x9b\xb6!Nh\xf1,\xeaz\x8d\x12)\x0cP\xea\
-\xf3\xa0b\xd0\x1d\xf2\x80C\x0d\xb8@t6\x8b*k\
-\xaaS\xcd\xf6\x99\xc2\xe8_\xd5\xd7\xab\
+\x00\x00\x0c\xe2\
+i\
+mport QtQuick\x0a\x0a/\
+/ Vector icons d\
+rawn on a Canvas\
+ (no emoji / ima\
+ge assets => ide\
+ntical on every \
+device).\x0aCanvas \
+{\x0a    id: c\x0a    \
+property string \
+name: \x22check\x22\x0a  \
+  property color\
+ color: \x22#FFFFFF\
+\x22\x0a    property r\
+eal size: 24\x0a   \
+ property real s\
+troke: 2.2\x0a    w\
+idth: size\x0a    h\
+eight: size\x0a    \
+antialiasing: tr\
+ue\x0a    onColorCh\
+anged: requestPa\
+int()\x0a    onName\
+Changed: request\
+Paint()\x0a    onSi\
+zeChanged: reque\
+stPaint()\x0a\x0a    o\
+nPaint: {\x0a      \
+  var ctx = getC\
+ontext(\x222d\x22)\x0a   \
+     ctx.reset()\
+\x0a        var s =\
+ width\x0a        c\
+tx.strokeStyle =\
+ color\x0a        c\
+tx.fillStyle = c\
+olor\x0a        ctx\
+.lineWidth = str\
+oke * s / 24\x0a   \
+     ctx.lineCap\
+ = \x22round\x22\x0a     \
+   ctx.lineJoin \
+= \x22round\x22\x0a      \
+  ctx.beginPath(\
+)\x0a        if (na\
+me === \x22check\x22) \
+{\x0a            ct\
+x.moveTo(.2*s, .\
+54*s); ctx.lineT\
+o(.42*s, .74*s);\
+ ctx.lineTo(.8*s\
+, .28*s); ctx.st\
+roke()\x0a        }\
+ else if (name =\
+== \x22plus\x22) {\x0a   \
+         ctx.mov\
+eTo(.5*s, .2*s);\
+ ctx.lineTo(.5*s\
+, .8*s); ctx.mov\
+eTo(.2*s, .5*s);\
+ ctx.lineTo(.8*s\
+, .5*s); ctx.str\
+oke()\x0a        } \
+else if (name ==\
+= \x22close\x22) {\x0a   \
+         ctx.mov\
+eTo(.26*s, .26*s\
+); ctx.lineTo(.7\
+4*s, .74*s); ctx\
+.moveTo(.74*s, .\
+26*s); ctx.lineT\
+o(.26*s, .74*s);\
+ ctx.stroke()\x0a  \
+      } else if \
+(name === \x22tasks\
+\x22) {\x0a           \
+ var ys = [.28, \
+.5, .72]\x0a       \
+     for (var i \
+= 0; i < 3; i++)\
+ {\x0a             \
+   ctx.beginPath\
+(); ctx.arc(.18*\
+s, ys[i]*s, .055\
+*s, 0, 2*Math.PI\
+); ctx.fill()\x0a  \
+              ct\
+x.beginPath(); c\
+tx.moveTo(.36*s,\
+ ys[i]*s); ctx.l\
+ineTo(.86*s, ys[\
+i]*s); ctx.strok\
+e()\x0a            \
+}\x0a        } else\
+ if (name === \x22c\
+hart\x22) {\x0a       \
+     ctx.lineWid\
+th = 3.6 * s / 2\
+4\x0a            ct\
+x.moveTo(.22*s, \
+.84*s); ctx.line\
+To(.22*s, .52*s)\
+\x0a            ctx\
+.moveTo(.5*s, .8\
+4*s); ctx.lineTo\
+(.5*s, .2*s)\x0a   \
+         ctx.mov\
+eTo(.78*s, .84*s\
+); ctx.lineTo(.7\
+8*s, .38*s); ctx\
+.stroke()\x0a      \
+  } else if (nam\
+e === \x22clock\x22) {\
+\x0a            ctx\
+.arc(.5*s, .5*s,\
+ .38*s, 0, 2*Mat\
+h.PI); ctx.strok\
+e()\x0a            \
+ctx.beginPath();\
+ ctx.moveTo(.5*s\
+, .28*s); ctx.li\
+neTo(.5*s, .5*s)\
+; ctx.lineTo(.66\
+*s, .6*s); ctx.s\
+troke()\x0a        \
+} else if (name \
+=== \x22flame\x22) {\x0a \
+           ctx.m\
+oveTo(.5*s, .04*\
+s)\x0a            c\
+tx.bezierCurveTo\
+(.56*s, .3*s, .8\
+6*s, .4*s, .84*s\
+, .66*s)\x0a       \
+     ctx.bezierC\
+urveTo(.82*s, .8\
+6*s, .66*s, .96*\
+s, .5*s, .96*s)\x0a\
+            ctx.\
+bezierCurveTo(.3\
+2*s, .96*s, .16*\
+s, .84*s, .16*s,\
+ .64*s)\x0a        \
+    ctx.bezierCu\
+rveTo(.16*s, .46\
+*s, .3*s, .38*s,\
+ .34*s, .22*s)\x0a \
+           ctx.b\
+ezierCurveTo(.4*\
+s, .3*s, .44*s, \
+.36*s, .5*s, .04\
+*s)\x0a            \
+ctx.closePath();\
+ ctx.fill()\x0a    \
+    } else if (n\
+ame === \x22trash\x22)\
+ {\x0a            c\
+tx.moveTo(.18*s,\
+ .27*s); ctx.lin\
+eTo(.82*s, .27*s\
+)\x0a            ct\
+x.moveTo(.38*s, \
+.27*s); ctx.line\
+To(.38*s, .15*s)\
+; ctx.lineTo(.62\
+*s, .15*s); ctx.\
+lineTo(.62*s, .2\
+7*s)\x0a           \
+ ctx.moveTo(.27*\
+s, .27*s); ctx.l\
+ineTo(.31*s, .86\
+*s); ctx.lineTo(\
+.69*s, .86*s); c\
+tx.lineTo(.73*s,\
+ .27*s)\x0a        \
+    ctx.stroke()\
+\x0a        } else \
+if (name === \x22be\
+ll\x22) {\x0a         \
+   ctx.moveTo(.2\
+*s, .72*s); ctx.\
+lineTo(.8*s, .72\
+*s)\x0a            \
+ctx.bezierCurveT\
+o(.7*s, .62*s, .\
+7*s, .5*s, .7*s,\
+ .4*s)\x0a         \
+   ctx.bezierCur\
+veTo(.7*s, .24*s\
+, .6*s, .16*s, .\
+5*s, .16*s)\x0a    \
+        ctx.bezi\
+erCurveTo(.4*s, \
+.16*s, .3*s, .24\
+*s, .3*s, .4*s)\x0a\
+            ctx.\
+bezierCurveTo(.3\
+*s, .5*s, .3*s, \
+.62*s, .2*s, .72\
+*s)\x0a            \
+ctx.stroke()\x0a   \
+         ctx.beg\
+inPath(); ctx.ar\
+c(.5*s, .8*s, .0\
+7*s, 0, 2*Math.P\
+I); ctx.fill()\x0a \
+       }\x0a    }\x0a}\
+\x0a\
 \x00\x00\x04J\
 i\
 mport QtQuick\x0a\x0aR\
@@ -2647,78 +2801,260 @@ roperty: \x22y\x22; to\
  }\x0a            }\
 \x0a        }\x0a    }\
 \x0a}\x0a\
-\x00\x00\x04]\
-(\
-\xb5/\xfd`\xb9\x0e\x9d\x22\x006\xe7w0pm:\
-\xfc\xff\xff\x7f\x9d\xfe\xe7\x02\x10.\xed\xef$\x19w\x92\
-\xd2\x1eiwK\x22#\x1ft\x18\x03\xc8\xe3d\x22\x8a\
-\x93\xa1\x91\x88\x08\x17\xb1\xc4\xdc\x04\xfe\x1ejc\x00i\
-\x00j\x00\xd9\x8b\xee\x96\xe5O\xc62x\x03Y\x0aH\
-\x1c?\x8a\xf2\xd7\xb7\x91\xea\x899\xc9\x1a\xce\xf3mG\
-%\x8e\xee\xf4\xb9s\xb2\xd7\xeb\x5cl\xab\xa2R\xf6-\
-\xbd\xe5\x05\xfb'\xbfG\x08R\x89\xdf\xf7+\x15[\xfe\
-\xa4\x14d\xac\xb9\xaf\x1f[\xb3\x97|\xb9\xbc\x9c\xdc\xa6\
-\x92k\x8dp(?*\xee7\xdeD\x22Vk\xac\xe2\
-+\xf4\xa5_\xb0\x03\xdb\xfa\xa3)\xbdjq\x0d\xa2\xca\
-T\xa0\xd1G\x96{M\x06:MT\xfa\x08`\xa2\x89\
-\x12H\xb6\xba\xdeF_\xd1(*U\xef\xda\x13Iv\
-\xd29\xdc\xb6#\xb19\xb1v[U,:\xa0\x91w\
-b+\x01\xe6@\xf2Y\x18U\xbf\x1a\x95\xbe\xa2\x9a%\
-\xbe[\xbf\x0bfr]\xf4\xc6\x16\xff\xe1\x97T2\x15\
-\xd7E\x0c\xb9\xbaP\x05\x95\x1a\xf6\x19\xaa\xf4\xe7-\x1d\
-~\x11b\x8e\xad\xd6\xaf!\xfa\x8cM\xc9\x85\xd3{\xdd\
-\xe1\xd0e\xb9\xc0\x13s\x0ds 61QI)\xd9\
-w\xdb\xcb%Ct\x04\xb6\x5c>\x02o\xf4\xd4\x09\xb2\
-\x1aWmc\xcc\xb4\xea\xca^\x84\x87z\xe8\xe4\x221\
-\x17\xbd\x7fa\xc7\x05\xe5\x88\xae\xd2[c+fp\xfc\
-\x98\xa62\xe3\xca\xd79\xb95lF\x06\x94\x89\xa5R\
-\xf98\xc7C\x22\xf9#7\xbc\x11\x8fj\xae\xfc\x09\x83\
-\xb9@\xfe\x0c\x80N\x14\xe8\xe3f&\x04\xcad@?\
-\x17\xefu\x05@\x03\x02\xd4\xd2\xd1\xc1\x8f\xd3\xb35\x04\
-\x0a8R`X\xcc\x1e\x89J\x0e\x10\xc8G\x08\xf4\x16\
-J\x9fP\x8bBY\x5c\x80 H\x13\x12\x12\x94\xe14\
-]\xfcy|\xb3y\x88$v\xfd\xf81g\xcb=g\
-h\xc8\x0e\x10\x1e\x8c\xc5\xe3O_\xd1G\xef\xfc\x87/\
-\x22\x18\x95\xa88/\xd3c\xcd\x14}\x81\x11\xa8\x01&\
-3C#)H\x0a\x92\xe9A\x08\xc2`\xa0\x92\xde\xb2\
-\x03\xa20(\x8a\x81\x5cB\x14\xb3\x8602r\x22a\
-\xf2(IAAs_+\xc8L\xa5f\xea7\xd8\xe4\
-\xb8\xb5\x14\x1c\x19kN\x17\xbd?\xa2\xcf\x0e#\xeda\
-\x0b\x94\x02\x9b7p\x0aj\xba\x88F\xff\xabJ\xf8g\
-\x08\x11J\x1a\xa1\x5c\x1a\xb9\xdd\xf2\xbd1s\xa07\xa8\
-\xe3\x02a\xb5\x83\xc7d\xa2T\xf2\x83\x81\x05\x91\xc0\x03\
-P\x10\xd3\xd8\xd4\x8al1\x1b\x8f\x89\x19\xcd\x04\x9eH\
-\xedd\xe7x\xca\xb2\x16\xc7\xbeQe^\xf3\xe5\x8dC\
-\xfa\x98\xd9OH\xf9M%\xeeA\xcc\x0d\xd4\xb2\xbb>\
-\xa0q\xe1+\x1e\xc6\x15aR\x82\xa0\xbf\xf9\x9c\x12\xe6\
-5\xc1!\x17\xae\x02\x80\xe3*\xf8\x85\xa5\xff\xf4\x8f!\
-\xba2[JA\x85\xe2\x13\xa0\x9d\xac\x13\xe9G{D\
-h\xb3\x875@[\xa3\x86h{i$\xebM\xb4x\
-I\xa8\x94\xd1\xf0\xfca\xe5\x03(\xcd|\xbb\xdd\x91\xc3\
-\xe0},\xab\xd6d\xe1\xd4!\xc3ta\xb5\xe8\xd8Y\
-\xce\x05\xb2]\xecu\xb5\x97\x8e}\xa5]\xc1>g\xed\
-\xfc<#\xech\x0f\xb6\xe8Z\xdd\x1e\xe6m]\xa9\xe2\
-\x91\xe0/\x09\xcc\x1e\xe0}\x16(\x91\x9c\x06\x07\xae\x85\
-\xdd\xf7)\xae\xa0\x04\xdeE\x94\xd0\xc4E\xf8\xbe\xf8\x84\
-\xd8\xbd\xa3\xbfr\x019\xdc\xda4\xf8`\xbc\x0er\xf4\
-\x9f\xfcL\xab\xad\xeb\xd4w\xa0Z\xd1Y\x92\xc7y\xc4\
-\xd5\x1ax\xdbn<\xb4\xe1\xe5T\xfc\xe2\xc3\xad\x0dZ\
-t\x0bR\xeb\x10\x87\x17\x85\xa9\x18?\xc5J\xbf\xb88\
-\x01\x18\xec\x9eK\x00@\xb6\xe1s(\xec\xb0\xaeO\x02\
-\x15i\xc1c\x99\xf3\xad\xdfud\x944\x17\x9c\x85\xf1\
-\x93\xca\xb6\xf8\xda5$y\x87\xca\x83\xe1\x193\xbaG\
-\xd8\x87<T\xea$S\x8e\xadP\xf8\x87\xa2&K\x1e\
-\x0a}\x95\x19U\x9aP\x91\x85[\x0doQ\xe9\x96\xa9\
-\xcf!\x1aO4\xd3\xf4\x89\x22\xb0f\xfa\xcc[\xb6\xc4\
-\xfa\xad\x14)\x85\x04\x9a\xc5|\xc6\xb8%\x15\x83\xa7\xca\
-:\x18\x06M\xcd\xc5(6o\x9dLK0ZN_\
-\xde\xa4\x03\x988\x8aA\xe5p>\x0a!<\x9f\x8b=\
-\xe8\x1f's\x1e\xba\x1f\xfb\x8e\xe6?\xa2}\x1f\x9d\x0b\
-\xaf\xb7\xf3}C\xd3\x99[\xd2\xbey?z0Oo\
-\x0d#\x8c\xd8\xaa\x85A\xa0\x14\xafRt\xf1\x8b\x1f\xd9\
-\xf8\xc0^\x04\x05Ia*`w\xea2\x12NQR\
-+\x12*&\xe1l\xdb\xf4\xae\x06g\x97_\x81\xac\x02\
-\x22C\xdf4\x02\xe8\x87|)\xd3\xaa\x06\
+\x00\x00\x0f\xb9\
+i\
+mport QtQuick\x0a\x0aR\
+ectangle {\x0a    i\
+d: card\x0a    prop\
+erty int taskId:\
+ -1\x0a    property\
+ string title: \x22\
+\x22\x0a    property s\
+tring notes: \x22\x22\x0a\
+    property str\
+ing time: \x22\x22\x0a   \
+ property int pr\
+iority: 2\x0a    pr\
+operty string ki\
+nd: \x22daily\x22\x0a    \
+property bool do\
+ne: false\x0a    pr\
+operty bool over\
+due: false\x0a    s\
+ignal toggled()\x0a\
+    signal remov\
+eRequested()\x0a\x0a  \
+  readonly prope\
+rty color metaCo\
+lor: overdue ? T\
+heme.danger : Th\
+eme.textSecondar\
+y\x0a    implicitHe\
+ight: Math.max(7\
+6, info.implicit\
+Height + 32)\x0a   \
+ height: implici\
+tHeight\x0a    radi\
+us: Theme.radius\
+\x0a    color: Them\
+e.surface\x0a    bo\
+rder.width: 1\x0a  \
+  border.color: \
+overdue ? Qt.alp\
+ha(Theme.danger,\
+ 0.6) : Theme.bo\
+rder\x0a\x0a    Rectan\
+gle {\x0a        x:\
+ 0; width: 5; he\
+ight: parent.hei\
+ght - 32; radius\
+: 2.5\x0a        an\
+chors.verticalCe\
+nter: parent.ver\
+ticalCenter\x0a    \
+    color: done \
+? Theme.border :\
+ Theme.priorityC\
+olor(priority)\x0a \
+   }\x0a\x0a    Rectan\
+gle {\x0a        id\
+: box\x0a        x:\
+ 22\x0a        anch\
+ors.verticalCent\
+er: parent.verti\
+calCenter\x0a      \
+  width: 30; hei\
+ght: 30; radius:\
+ 15\x0a        colo\
+r: card.done ? T\
+heme.success : \x22\
+transparent\x22\x0a   \
+     border.widt\
+h: 2\x0a        bor\
+der.color: card.\
+done ? Theme.suc\
+cess : Theme.tex\
+tMuted\x0a        B\
+ehavior on color\
+ { ColorAnimatio\
+n { duration: 14\
+0 } }\x0a        Gl\
+yph {\x0a          \
+  anchors.center\
+In: parent\x0a     \
+       name: \x22ch\
+eck\x22; size: 18; \
+stroke: 2.8\x0a    \
+        color: T\
+heme.onBright\x0a  \
+          opacit\
+y: card.done ? 1\
+ : 0\x0a           \
+ Behavior on opa\
+city { NumberAni\
+mation { duratio\
+n: 140 } }\x0a     \
+   }\x0a        Mou\
+seArea { anchors\
+.fill: parent; a\
+nchors.margins: \
+-12; onClicked: \
+card.toggled() }\
+\x0a    }\x0a\x0a    Colu\
+mn {\x0a        id:\
+ info\x0a        an\
+chors.left: box.\
+right; anchors.l\
+eftMargin: 14\x0a  \
+      anchors.ri\
+ght: del.left; a\
+nchors.rightMarg\
+in: 4\x0a        an\
+chors.verticalCe\
+nter: parent.ver\
+ticalCenter\x0a    \
+    spacing: 6\x0a\x0a\
+        Text {\x0a \
+           width\
+: parent.width\x0a \
+           text:\
+ card.title\x0a    \
+        color: c\
+ard.done ? Theme\
+.textMuted : The\
+me.text\x0a        \
+    font.pixelSi\
+ze: 16\x0a         \
+   font.weight: \
+Font.DemiBold\x0a  \
+          font.s\
+trikeout: card.d\
+one\x0a            \
+elide: Text.Elid\
+eRight\x0a        }\
+\x0a        Row {\x0a \
+           spaci\
+ng: 6\x0a          \
+  Glyph { name: \
+\x22clock\x22; size: 1\
+4; color: card.m\
+etaColor; anchor\
+s.verticalCenter\
+: parent.vertica\
+lCenter }\x0a      \
+      Text {\x0a   \
+             tex\
+t: card.time ===\
+ \x22\x22 ? \x22Anytime\x22 \
+: card.time\x0a    \
+            colo\
+r: card.metaColo\
+r; font.pixelSiz\
+e: 13\x0a          \
+      font.weigh\
+t: card.overdue \
+? Font.Bold : Fo\
+nt.Normal\x0a      \
+          anchor\
+s.verticalCenter\
+: parent.vertica\
+lCenter\x0a        \
+    }\x0a          \
+  Text { text: \x22\
+\xe2\x80\xa2\x22; color: The\
+me.textMuted; fo\
+nt.pixelSize: 13\
+; anchors.vertic\
+alCenter: parent\
+.verticalCenter \
+}\x0a            Te\
+xt {\x0a           \
+     text: card.\
+kind === \x22daily\x22\
+ ? \x22Daily\x22 : (ca\
+rd.kind === \x22wee\
+kly\x22 ? \x22Weekly\x22 \
+: \x22One-time\x22)\x0a  \
+              co\
+lor: Theme.textS\
+econdary; font.p\
+ixelSize: 13\x0a   \
+             anc\
+hors.verticalCen\
+ter: parent.vert\
+icalCenter\x0a     \
+       }\x0a       \
+     Rectangle {\
+\x0a               \
+ visible: card.o\
+verdue || (card.\
+priority === 3 &\
+& !card.done)\x0a  \
+              he\
+ight: 20; width:\
+ pillTxt.width +\
+ 14; radius: 10\x0a\
+                \
+anchors.vertical\
+Center: parent.v\
+erticalCenter\x0a  \
+              co\
+lor: Qt.alpha(Th\
+eme.danger, 0.18\
+)\x0a              \
+  Text {\x0a       \
+             id:\
+ pillTxt; anchor\
+s.centerIn: pare\
+nt\x0a             \
+       text: car\
+d.overdue ? \x22Ove\
+rdue\x22 : \x22Importa\
+nt\x22\x0a            \
+        color: T\
+heme.danger; fon\
+t.pixelSize: 11;\
+ font.weight: Fo\
+nt.Bold\x0a        \
+        }\x0a      \
+      }\x0a        \
+}\x0a        Text {\
+\x0a            vis\
+ible: card.notes\
+ !== \x22\x22\x0a        \
+    width: paren\
+t.width\x0a        \
+    text: card.n\
+otes\x0a           \
+ color: Theme.te\
+xtMuted\x0a        \
+    font.pixelSi\
+ze: 13\x0a         \
+   elide: Text.E\
+lideRight\x0a      \
+  }\x0a    }\x0a\x0a    I\
+tem {\x0a        id\
+: del\x0a        wi\
+dth: 46; height:\
+ 46\x0a        anch\
+ors.right: paren\
+t.right; anchors\
+.rightMargin: 6\x0a\
+        anchors.\
+verticalCenter: \
+parent.verticalC\
+enter\x0a        Gl\
+yph { anchors.ce\
+nterIn: parent; \
+name: \x22trash\x22; s\
+ize: 20; color: \
+Theme.textMuted \
+}\x0a        MouseA\
+rea { anchors.fi\
+ll: parent; onCl\
+icked: card.remo\
+veRequested() }\x0a\
+    }\x0a}\x0a\
 \x00\x00\x01\x22\
 s\
 ingleton Theme 1\
@@ -2740,421 +3076,2332 @@ tTile 1.0 StatTi\
 le.qml\x0aConfetti \
 1.0 Confetti.qml\
 \x0a\
-\x00\x00\x19\xcc\
-(\
-\xb5/\xfd`@\x90\x15\xce\x00\xea\x91\xe8\x1a<@k\
-\x9c\x03\xc30\xcc\x84h\x96a\xf8\xff\x19\x03\xad\xd2\xf6\
-\xa3\x9d$u\xa7\xa4l\xc9\xb6\x96B\x12b\xcaj\x8e\
-\x8a\x88\xe6\x032\xf0\xbf\x8f\xc3!\xcd\xa2\x9bH\xa6b\
-8j\x13AI5\x8a\x1b^\x11\x89\x01\x96\x01\xb3\x01\
-\x12w&\xa8\xfa3\x84\xd2\xaf6\xe7VIs!\xc7\
-\xfd>\xfe\xad\xf3\xc3\x10\xd1O\xeb\xd3z\xfc\x80t\xb7\
-\xdf+C rR\xb2\xb6\xe7\xc5\xf9\xc0\xc1\x81{O\
-mJ\x1d\xe0\xc9Z5%\x96\xacW\xdc\xbf\x93\xc6\xa6\
-\x1b\x15\xc1\xdcm\xdbi+\xe5C&\xf3 b\x07\x96\
-\x94dM~\xdfN\xc7\xfd\xce\xea^m\x7f'BH\
-\x9c1\xb4\xde\xb1tO\x00Y\x82\xad\x08\x1f\xa8\xf6\xfb\
-\xb6\x93t\xed\xe7\x16\xdf\x1e\x8a#\x98\x9b\xa4\xef\xb6\x1e\
-\xde\xea\xd7\x19}n|\x0aL[z\xe6\xef\xc4\x98`\
-\xd7e\x1c\x07\x192I\xcd\xa0\xaeRws\xf3\xb1\xb3\
-\xde\xa1\xb2\x8c\x05\xc8+'\xfe'\xf6\xd7\x09\xe1\x01g\
-\xf1#\xe6\xd3\x0d\x9aFu\xc6\xaemW\x97\x0c\xa98\
-\xa3\xf1\xfd)H\x9c\xdd\x8flc\x87\xec\xdf\x9a\xf6\x9d\
-$\xfb\x1aJ\xd6\xfel\x91\xc3\x99(J\x7f\xf6\xd4i\
-\xdf\xb6\xe7\xf6a[R\xe7z\x8b\xd4\x83\x15\x01\xa0\xec\
-\xda\xdb\x16)7-z\x8b\x1d\xfb\xdd\xea\xff\x9f\xa4=\
-;}#\xe7\xffC\xbd\x01Q\xfd\xdf4z\xcf\x1f\x1b\
-%7\xf7\x5c\x9d\xa3\x8cmy\xe3\xcf\xe6\x7fYd\xbb\
-\xa3\xb9?1\xc3\x06\x0c<<\x1c\xaa\xbb\xe66\x9cY\
-\xa7\xbe\xc1\xae\x8e\x11E\x0c\xfc\xf9\x12\x0b\xebj\xd0}\
-\xdd\xac\xb3\x9bP8{\xce3\x9b\xab,\x8c3\xeee\
-\x7f\xf69k\xca\x99wv\xd4\x09\xe2LNf\xe6\x07\
-\x05\x06\xb9\xac\xb3A\xf5\xf9q\x9b\xd4\xf3,\x8f\xc7\xfd\
-\xcfE\x11c\x9b7NP\x97\xba\xfd\xea\x17\xea\xf1\xd9\
-\xe6\xb7\xe0\x17\xf0[\xf7\xba\x19\x9e\xbf\xc6\x82\xb2\x9e\xc0\
-cY\x91\xc8\xc5\xc6\x8dGZ\x04\xd5(plk\xe9\
-\xfby\x06\xde\x1a\xed\xcb\xfe/#1\xdd+]\x95\xee\
-\xab#\xb6\x18C\x11\xd16wJ\x9c\xf1\xb4`\x09n\
-\xfau2\xda\x97\xa9;GD\xabO*\x88\xac\xb3\xcd\
-A\xd1(\xd0X6\x1cjY/\xec\xb7\xbd\xe6\xb6'\
-z\xa3\xd1\x85\x11i\x9b\x7fY\x83\xb4\x03#\xe7\x89h\
-\x82I\xbd\xd8\xe4\x94`\x9ami\x9d\x83E\xa8\x8a!\
-\x11$E\xce\xa3\xf1~SFkQ \xe7\xd0&\x17\
-E\xb3M9D6\xca\xea[k2,aUeV\
-d3\x92\xd4'*@\x10=ajh\x87f\xf5\x0e\
-k\xf0^\x9bI\xf0\x85E\xb4\xca\xe2\xac\xce\x8c\xf6\x9d\
-\xa6\xdf\xb7^x\x0e\x5cUd[\xdb\x9e\x8c\xcd\xf1\xc3\
-\xa5tvj\xf7Q\x88TgGq\x1f3}\xa1\xf1\
-\xabO\x98\x9d\xff;\xe7k\xdb\xe8q\xe6\xf9S\xd7:\
-\xb7\xd5His\xb7\xeb\xbf\xc0\xc0\xa0\xb0\xd0p\x84D\
-s\x9e&\xa9\xb6\xa7Q5$\xfd2\xeak\xd7\xbf\x11\
-\xd1\xcf-zNi\xef\xb9\x9d\xf47\xfa\xa6\xed\xecP\
-\xf3\xbf;\xfd\xd1r(\xd9\x9e\x1a\xb9K\xf5o\x8f\x8d\
-\xb7\xeb\x08\x00k\x11L\x813\xd9\xb6=\x9ei?\xb6\
-\xd7\xf5\xb3\xacUW\x87\xed\xaf\xd3N\x02$\xda\x9cH\
-\x1d g6v\xd8/O0u'\xf7\x1dw`\xc8\
-\xb2\xbf\xa9\xd7\xf9\xc6\xddA\xe0s\x07\x10Rm\x9bc\
-\xefc\x90sw\x82\xf8\x8a\xe8\xe7\x22\x9652\x83\xba\
-\xc3\x91\xa5\xb4\xc0\xa9\xf2\x9f\xa6\x0a\x158B\xe2\x01\x03\
-\xb8b\x04\xacQ\x0e\xfd\xd59\xb5\xfd\xfe\xebP\xa0\xdc\
-\x8d\x98\xb7\x91\xdb\x182\xda@(<\xa0L<\x95C\
-\x93\xebC\x9b\x0cl\x92(S\xc6\x954M$\x12C\
-&R(b\x17C$\x10TE\xa1\x1c\x1a\xb9`a\
-\x03K\x00\x90l\xe4h\x10l\x80'\x0a&\x81\x9c\xe1\
-\xb7\x88\xe1\xf4\x92\x0bH\x12\xfc\xacQ\xf8t7\x10\x85\
-,\x8a\xe5t\xc4\xf0\xb35\xb7eT\xdf&k\xfd\xb1\
-67\x13\xa4^\xc4\x18,l`\xf7p\x03\xe0x\x04\
-\xfe\xd86\x01SwRP\x0d\xa4\xf5\x06T\xe6E\x0b\
-\xea\xad\xb2\x88\xce\x88\xb9*\xedaB\x99\xa8T*\x17\
-\x06\xbb\xaaj\xba\xd8(\xc0\x16$\xb4I\x9b\x8d\x12\xf7\
-\xd3\xd3\x9cj\x22\xb9,V\x80\xa6\xa2\xd7\xf4\xc7\xed_\
-h\xa1\x17/\x11\x0d\xbaN:\x91\xd8\x8d!\x16\x1bh\
-m\x82\xd2\x82R\xf5\xcb\xb7\x87#8\xf4[V]\xfa\
-:\xe3\xc6o\x1b\xd5\x7f\xf3\x98\xc6\xb6\xf6\xc6\x8e\x1a/\
-Z%r\xf1CHN\x8c\xbb\x18\x0e\x8b\xc6\x84\x85\xc6\
-\x82\xd1 \xe5\xcf\xdc\xb3\x177\x94K\xb30\x8ak\x11\
-\xdc\xd9\xd9\xa9~\xb9\xfdIh\x8e\x09\x22\xc9\xa6\x1eO\
-\xc4\x01\x08\x01|\xd2v\x87w\x9d\x9cO\xc9\x8b\x8dE\
-i,\x86bC\x81\xb1\x91\xd1\xb8X\xce\xa0\x819A\
-\xc6E\xc6\x85%C!\xc1\x98\x96\xf5GOk(\xfd\
-*4\x9c\xc5i\xfb\xa7\xdd 5\xf1\x16\xea\xca\xfay\
-\x93n=\x19l\x93\xf3]\xfe\xd3\xa0\xe0\xac=\xd1S\
-\x9e:ol\xd6*\xc9e?\xd9\xcdj\xb1\xcd\xe9\xbe\
-\x8c\xeal}vD\xae'\xaa*\xc2\x06\x0a\xb0D\x82\
-\x8d\xb0\x0b\xfe\x95\x96\xd95\xe6\xaaP`(6,\xb2\
-k\x8d\xd4c\xee=\x03b]\xc5E2A\xb9L\xb0\
-\xca\x15\x89\x8c(&\xd7D2\x91X &\xaaj^\
-\xf7\x02\x8f\xd1ct\xe9K'H\xf7\x0f\x99 \x04J\
-uz\x04\x08\x04N\xd6\x83\xd4\xdb\xa4\x97\x9a*(u\
-\xcf\xdd\xcf\x9b\x1eh\x90\x8a\xdc76\xdd\x88\xe8\xa6}\
-\x0a\x9bh\x9afqY\x18\x91\xb7\xeeu\x17VUe\
-\x9c\x03\x04\xf6\x12\xb0\xcb\x8aT\xf7\x0c\x8eVT\x15I\
-V\xf1\xb4\xe6<.\xaa\x16\xbe\x91od9\xdf\xab\x84\
-mYg\xf7\x98\x5c\xa3l\xbc\xc9m\xa3\x08\xc8\xad\xf5\
-\x0e\x83q\x00\x80#$\xd5\xa7\xaa:\x86M \xc0\xfa\
-}\xd4L[\xf1q\xf2\x83\xc0\xea\x19\xd8W\xa3\xa3C\
-\xean\xfeCW\x8d\xde\xaa_\xd9y0\xfeN4z\
-.q\xc6\x7f\xfe\xb1\x0e\xa2<Tk\x93\xcb\xba(\x98\
-(\xf4x<2\x90s\x1a\xdf\xfc\xe7\x1cKu\x07\xd4\
-4\xabS\xd3\x94\xde\xd2\xf5O\x0e\x08\x08\x16 \xc9\x8f\
-\xb2\xce\x8e\xb5\x0a\xe5\xf5k\xec\xe7\x9cfi\x1f\xdaX\
-\xdb\x97\xc6\x0e\x8d\x1duj\x10J\xda\xb3\xa2\xb3^1\
-\xa9\xaa\xc8\xcf\x10\xe6\xaf\xc1\x1a\xed\xe6\x81\xb1\xef\xe6\xae\
-\x84!\x98U@\xd4\x1fJ:\xf7\x9d\xf9\xcf\xab\x93\xf3\
-\x81\xf7\xdb\xbc\x03\x7f\xeb\x08\x9c\x0d\x05\x06c\xd1&I\
-Z\xd9\xd7\xe9\x06/\xbcLX\x5c\xbf'P\xe3\xb6a\
-\x8a\xd2\xc8\x9d\xdb\x0eK\xcb\xcd\xf9\x0b(\xd1\xdf\xb43\
-\xcc\x83\xa9 *Iu\xb9H9U4>\x9c\x12E\
-\xaa\xc1\xd9C\x86\xe3\xa2\x22C\xe3\xc2\x14\x98\xaa\xc20\
-\x0a\xb5\xac\xc7\xb4\xb8&\x886\xc1&\x13\xb2\x8d\xc6\xa2\
-\xb1\xf1>\xcf749)\x14k\x14x?\xeaU\x15\
-\xce\xf8\xaaP\xb2\xef\xe5\xc4N\xdcn\xe4\xe2<\xa4\x8c\
-\x1f\x9dv4\xcc\x92P\xd7\xa5\x85Z\xd6\xd9\x1d\xf3\xb7\
-\x08a\x04\xa5\x8d\xce\x09\x87\xef\xa8\x93:>\xe9\x1c\x93\
-\x19I\x92\xa4\xcd\xb3@ \x14 \x95\xc9%\xa2\xd1\x90\
-\xb4\xec\x03\xa3\x81\xf1\x99\x1c\x22\x85\x04D\x88\x0c\xc4`\
-\x08\x8408\xc20\x08!L`\x88&\x84H\x227\
-\xb7m\x22\x9d\x1b,\x05oB\xbfV\x97F\xd49\x1c\
-\x97N*\xf5';\x9a\xfd\xd52\x98\x96\xd1\xc6\x10O\
-\x9a\xca\xe4\xf5m31\x93\x9e0sT\x03%j\xd2\
-`>d?[\xf25.\x92\xb21At\x09;(\
-\xa1fLb\x09\xe0\xc4fR\x0a\x01\xe2\xf1\x8e2\x9d\
-\x0d\xe2\xf1V\xf4\xe0]\xd1bo\x91\xeb\xc6\xa7\xd9\xc6\
-\xff\xa8\xbe\x09?\x10\xf1Z\x8c\x11t\x9d<\xf3?%\
-\x19\x9f0\x86\xdd\xdc^+\x12\xb1c@C\xceO\xcb\
-\x806.\x80\x12\xf8\x8b\xddF$\x90\xc5S\x22\xb4\x03\
-t\xf2\x8eW`[\xa0\x83\x08\xbb\x04\xd3c2\xc4\xcd\
-\xd9\xff\xf03\x0c\xc7\x09\x07j\xe0\xac/KD\xf4?\
-\xc6\x0e7\xc0\x90\x16\xa6\xe5D\xe2\x0e3*b\x90\x02\
-F;\x97;\xda\x81\x9c\xf0r\xdc\xcb\xb5\xa1.\x14\xf0\
-\xb9=\xc9\x8e\xbe\x03\xefDF\xa6\xf4\xd3\xc4\x08\xa9\x10\
-\xba,\xeck\x91\x04D\xab%\xc89.\x9b\x03\xf3\x84\
-_\xb5;\x12\x81\xb4b\xcb\xfb\x92\xd7\xc1=\x89\x0fV\
-\x13jo\x94\xc3\xf0qA\xf1Mz]\xfd\xe0\xae~\
-\xca\xfdk :m\xca]\xd6E\xe0\xd1\xf5S\x05\xf4\
-w\x17S}\xc4;\xb2\x96\xa4\x9eVp\x12\x84V\x12\
-J\x9d\x05L\xe6\xc0\x19B\x8aN\xef\xe5\x22A\xc0s\
-\xf4h5\x12P\xd3\xb5\x13\xd0\xf8\xf3\x89\xc0\xdb\x12\x81\
-'\x0c\x8eB)3\x83\xfe\x88\xbd\x94\x0c$\x04\x22\x07\
-\xd5$\xe7\x99\xfb\x15\x81\xc5\x15\xe2\xcdo\xb1;\xfb=\
-\xbc\xbfe\xdf.\x0c(Z\x1a\xe7*\x8aU\xeb\xadX\
-\x0eX\xcb\xef\xf6\x13\xc5a\x97Y\x82\x83\xfbJ\xff0\
-!.Ne\xa3l\x98\xa3\xb0\x14\xceG\xe9K\x14G\
-\xad\xdeDFm\xcc5\xa1<\xb2\xf4\xc3,\x86\x02\x88\
-\xc3 gq@M\xf7)y\xf8yD)'\xb2\xe4\
-\x05-\x80+\x1ea\x9d\xb3S\xb6\x16\xff\xf3\x9bPy\
-\xc5\x8ac7\xfe\xe7<\x8fj}\x11\xdck\xb8g)\
-\x9b\xc1\xfe\xc16\x12\x1d\xf2\xe8\xc9'\xf6\x91\x1f\xcfJ\
-\xf6e=/\xe3K\xa02'\xbd\xf5\x14\xb1J\x86\xf3\
-\x0f\xa6T\x0ef\x9a&\x87\xea\xa1\xe4\xdfn9\x15\xd3\
-\x99\xab\xd1\xe3Z\xc2\x88\x0e\xf1G\xf7\x84g\xcf\xd7\xb0\
-\xdf\xc8.\xcf\x9d\xba\xb6O\xa8L!\x16\xa8_\x89\xd9\
-Rm\xd4\xd5\x85\xad\xc1\xaf$(\x02\x90[[u\xf7\
-\xb6\x12\xf5\xd4\xc8\xbb\xad\x0b'E\xea\xc2\xef&;2\
-[\x93M\x95\xbc\x13\xb9\x8ce]X\x93\xdb\xff\x9c\xdb\
-\xd9\xafJ\xc1P\xe0\xc4\x8b\xba\x08\x9e\xba\x02\xd8\x84\xec\
-\xd7\x8a3\x12\x91\x5c\x90\xc3\xb7\xe5\xa0QmG2\x83\
-\xd5\x8bSj\xa8p\x86\xebVf\xc4\xfb\x98+\x02_\
-\xb8\xb3w\xc7\xa7\xadJ\xef[m\x0e\xf37\x9f\xe8-\
-\x99\xb1\x8dS\xb7@\xfe\x8a\x10\xdd\x9f\xa5>vJ\xba\
-\xa9\xb0\xd6\xd4\xfb4K\xb5\xeb\xec\x036\xcd\xb8\xd6,\
-\xdfu\xd7\x01\xbf\xd7h\xb2W\xea\x18\x85\x94!\xf9\xfe\
-\xfel\x01\x96\xef\xeb\xa7\xac\x5c!\xb0,\x9c\xaf\x0f\x82\
-:>G\x1b\x83E@\xe4ml\xd7\xf0\x0b\xa0\xbc?\
-\xf3\x05\xbbz!\x11\xc6}[\xaf\x1b=\xa0\xd6\xd9\xa0\
-HD\xc8Df\x1b\x10\xb5\xfc\x96\xf7\xd9\x01\xb60\x1f\
-\x90\xc2\xe7b\x5c\xc0VI1\xe5\xeb\xe5\xc4o5v\
-mm\x9b\xf0\xbd\x06%:q\x99\xe1\xf3\x01\x97\xd7\x80\
-\xdf\xbf?\x9c,\xc8\xda\xc9\xda\xbd+\xb8\x074\xa6\xac\
-\xfb\x90:\xfdI\xd1\xe7U\xbd\x1d,H\x96I\x0a\x80\
-&\xc3~\x88\x18\xe0\xba\x16\x10\x1c=\xb0\xab1\xa6+\
-\xb2$\x98\x97\x16\xf4\x1b\x13\x1c\xa6\xfc\x5cLn\xac1\
-E\x1c\xcd\xee\xb5\xb9\xdb\x85\x02\x10\xce\xe9\xfci\x89(\
-\x1c\x83\x1f\xdeO\xce\xcbB[,\xb5\x19Ei\xd8\x16\
-~\xf4?\xc9;\xd48\x97\xfd\xc9\xa1*\xf1\xd9z\x05\
-\x7f.\x0ep\xad\x08\xf0\x82\x12x\x0a\xcd\xe9\xc5\xf3\xa6\
-?\xe3Y\x803\xd1H@\x9e\xa3\xe2\x82\xbd\xd6\xb9+\
-\x05_e{[\x8c}\xb1T\x222\xf6\x1cF\x1ab\
-\xfeQBMT\x17\xb3N\xb0+\x05t\xbb\xe5\xab^\
-\xbe\xb0\x9aT\x08\x83\x99>\xe8 &\x96\x8f\xb4\xfaD\
-QB\xebZ\xdf\x99Q\xf7\xab\xcb\x11\x0ed\xf5\xb5\x06\
-\xd3?o\xd3\x9e>&\xdc\xec\x22P0\xd3T\x99\x9b\
-1\xdb\x07zH\xdao\x82\xce\xb7\xfb\x0b`\x9d\x7ff\
-g\x8e\x5c*\x05pRPo\xccg\x94\xab\xd23\xa6\
-\xfd-gK\x90\xad\xd38\xc4\x9c\x1d\xfcx\x22\xb1\xe9\
-\x15\x08\xf8,\xd9s\xbb_8\xf8\xf2\xd6\xd9\xfb\xbb\xd8\
-\xfcs\xda\xcb\xe7\x0f\xfcr\xf2\x8ca\xdbCLk\x9a\
-g\x8a\xf5a\xf7\x87\xe2\xc2\xb8_Z\x0a\xcc\xc8\xedI\
-\x22\xf7\xc4S\xd8\x92\xa5\x9c0\xb2^\x1dh'\xe73\
-\x9a47\xa1\xa4\x064>\xeb=\x81\xc5\xef\x03\xfb\x16\
-\xc1\xd3\xf8\xd8\xe8S\x1c.h\xf0\xb2\xc4t\xaa\x92\xfd\
-6\x86\xeb\x0dsl\xc2\xb4\x00\x8d\xa2-a)>\x08\
-\xfcY\xf1szV\xb2\x853!\xb7\x00\xb2k$\x22\
-1y\xa2d\xed\xb5\xa5\x18\xb1\xfbH\xda\xdaS\xf9\xa7\
-\x00/\x93\x1e\xfdP\x0e\xb6\x84x+\x05R\x1c\xf0\x13\
-\xe7\xd8\x8cfv\x94J\xb9H\xcc\x83\x1bk;H\xf1\
-j\xf0\xedA1m\xe7\x08\xdf/^\x8e\x84\x133\xbd\
--r\xb6\x87\x03E\x8d\x1e^\xa1\xe6\xbb\xb2\x9b\xd2d\
-\xbfgr\xaa\xc8(\x9c<\x1a\x09\x81R\xa4%I\xc9\
-\x8a\x9a2t?\xea\x7fR\xadw\x82\xdc\x93\xd9X\x22\
-Nk\xb1S,\xbc\x1cY\xe4\xde@\xc5\xfb\x9dW\x7f\
-\x5c\xc3\xc4\x09f\x01\xc4\xac_\x8b\x80\xaf\x80>/\xdd\
-:y2\xa5,\x11\xafC\x9dp\x94\x09_\xb93\xd9\
-\xd4\x05xJL9A?\x0dR\xdb\xb0V6\xa7\x05\
-\xa9*\x06\x9b\x14\x11i4\xbbV\xfc\x0f\x87\x5c\xd2[\
-\xc2q{S\xae\x88N\xa4IlH\x5c\xdd\xb4\x11\xcd\
-m\x01\xc7w\xc1{\xfe\xdf\xa2\x82\xdf\xe6\xe0\xb1\xbf;\
-hQZ1\xc3\xeb\xf7>\x09\xb3\x1f\xe3\x0fH~\xe6\
-\xae\x10{-\x88\x0a`\xaeO;\x97\xf9\xc3\x80~\x1c\
-G\xc1\xea\x8a\x09\x04\x0dV\xf1MP\x1b\xd2\x9aB\x00\
-'\xb8vo.q\x8cr\x9bZ\x96>\xbe\x7f9\x04\
-\xedZ\xa2\xb5\xc0\xa6\x06\xe6\xc9n\xa9\x95B#\x91H\
-\x06\x89\xa2\x05_\xc2\xb8\xbah\x86\xaa\x01\xb9\x9c\xff\x0c\
-\x06\xb5\xd6}yR-.\x0b1\xb6|>\xfd*\x15\
-\xfa\xf5\xeb\x99x~\x15\xbd\xf8\xf8%,l\x7f\xdb\x07\
-\x9d\x1f\x8e\xed\xa3\x07\xe7\x18\xf1xj\xf5\x07\xd1.\xa7\
-\xeb\xcf\xbf\xa0W\xe7\xafM\x06T\x88\x88oXG\xdc\
-{D\xbd\x03.\xf2\x0f/\xe6\xadA\x12\x01\xf3\xaaJ\
-\xa3\xd1\x14\xdc\xc6\xf6\xfa\xa3\x82\x1c9\x1a\xdf\x80\xaa\xa9\
-\xd4\x1b\xd7\xecd_NUXS=\x888<\x89B\
-o\x89J l9\xf8\xad4Q}\xa4\x15\x11\x0c\xce\
-\xac\x9c\x04\xcf\xd3(=\xeb)\x0d\x81m\x87\xe8\xb5\xfc\
-\xeb\x16\xd7\x92x\x8bE\xb8q\xb3\xf4\xa7)k\xd0\xea\
-\xad\xd1\xe2]\xcd\x04@\x86P\xbf\x09\xc1\xb2\x19c\xd8\
-+\xc0\xe7\xaf\xf5Pjy\x9e\xbb=\xa4&\x9f\xe9\xb6\
-\x5cE\xcfY\xfdx\xcf\x0d \xbaA\xd5\x17x\xce\xbc\
-\xaa\xa3\xeeVj\x85\xce\x979R\x8d\xb2\x0cI\xc4\x22\
-4\xb1\xaf\xdc\x81\x94\x06!\x9e\xac\xc1\x9fX\xb2M\xa2\
-\x0c\x22\xb4b\x9c+K\x97(\xb5<\xd6J\xd4\xd6\x19\
-\x00\xed\xe8\xf8s\xf9\x89/}\x9d\xd7$\x9e[\xc6%\
-\xe6u2b\x18q\xe1\x00\xd5\xb2\x9b7\x83\xa5\xa5T\
-U\xf4\xce\x86\xa4\x06 \xb0\x93\x88z\xb4\x03\x5c\x83[\
-\x10\xddg\x1fk\x1abF\x16C\x82\x03\xf1\xb9_\x7f\
-\xfa\x06#\xe2\xf4Ub\xf4\xc7\x11DPun\xf0\xf2\
-\x0f\xa2\xd4\x0a\xde\xf9\xda\x0fi\x17\x05\xf1;\xea\xc3K\
-\xd6N\xf0\x02\x98\xd5\x9eCl]<\xceN`\xbf.\
-\x19\x14\xb8\x09Xc\xa8\x9bf\xe8a\x99\x00\xc1\xf0y\
-\xcb\x0c\xb9F\xdf\xad6\x80Q\x9e\xd3NjL\xfaE\
-\x97\xc1\xb5&\xff\x81\x85\x97S\xe489\x7f\x84f\x02\
-\x7f\x07\xf9>\xc2\xcc`\xef\x03\xb5#4\xbc\xa4Q\x93\
-\x9d\x12t\xd0+\x8a\x10\xf7AK\xe5^\x99\xbb~v\
-\xb9j}\xd9o\x8d\xdf\x8c\x83kh\xfd#7\xb2\xf4\
-\x87\xeb}\xe2N\xb3\xed\x15)\x85\x81\x99\xbb\xb5\xd1\x8f\
-\x85\xbfce\x05\x83\xf6\x09\x85\x00]'h\x0eA-\
-;\x01#\x98\x9d\xeb\xdc\xfd\xfbs\xa5\xad[d\xe8\x0c\
-\x01:]c\x8f\x86|=!\xc0\x1b\xeeNhC\xaf\
-\xe4$\x91\xdf\x97B|\xa7\xc8\x1c\x13v\x13\xb4W\x22\
-\xd4\xcc\x13\x90\xf70\xd23C\x8a~g\x9aD\x22h\
-C}\xd0H\x04=\xb4(\x90\xc8\xa0\xa0h\xa5\x15s\
-K\x0blQ|#\xfc\x05'\xdcuT\x0b#\x1cj\
-\xee\xdcnp\xcb\xbfr\xcbR\xb9S&6\x87\x1e\x89\
-\xda\x981\xaaRRh\xf6\xc5\x12n\xf1\x19\xb5\x12\xb8\
-\x14\x10N\xf5\xdc\x14w\x04qQ}\x16\xd8\x8fQ\x91\
-\xc5h\x82\xa9nE\x19\x87\xfe=\x1f\x0b9Q\xe1#\
-\x95\xaa?v\x8b\xbd\xdcA\xf1\x80\x9cm\x9d\xdc\xcf\x1a\
-0\xa3\x87\xf8X\x0e\xf8\x0f\xd7\xb0\xa2\xd0(/}\xa4\
-\xbeSN\xe8i\x17\x1f\xa2\xa5\x9e\xf8\xdbTw\xc5D\
-1\xad\xb3'J\xe7\xce;'\x88}\xe7\xbaB\x14v\
-&\xfb}\xb8\xe6\x05\x98\x02]\xa5\x7fd(\xe2\x94\x01\
-\x1cm\xe1\xf8\xae\xef<\x1eEpT\xcf\xef~\xd1\x14\
-a\xffy-*\x99\x88\xeeJ(\xaf\x1f\xe0\x9b\xf4\xb7\
-8\x04\xa7w\x19\xe4W7C0\xfc\xc9\x9b\xfc=\xa5\
-\x7f\xf3\xa2Wk\xff\x13r\xc8d-?\xb3\xaefq\
-\xdaw\x05{\xc3\xf2\x07;\x96\xa1:\xd3\x87\xd8\x08\x22\
-Ic\xb1\x07\x8b\x97B\x8b\x84>\x18~\xba\x1d:\xa3\
-9\xe8\x0e\xc9\x15$\x84\x95\xe8\x1fifi\x87\xe7,\
-\x1a\x93\xaa0`\x05\x1fV\x0b)9\xabex\xcd\x06\
-\xde\xea\xdd\xb9\xcc\xe6\x92\x85\xaa\xbe]}j\xbc(\x10\
-B\x82GC\xc8W\xb9n_O\xe9\xce\xdd\xa9-\x89\
-\xa9\xb6\xd2.\xaeK\x8e\x13\x02\x89d\x0d\x8d\x22\xd6\xc6\
-\x80)\x14\x12\x14K\x87\xf1\xb59\x1ean\xa0\xb8E\
-\xfa\x18\xc6\x80A\xde=\xf5\xa1\xd1\x94\xb5\x9a\xd8\xe4\x09\
-QJ\x89\xcf\x13\xeb\x1c\x88\xe1\xc5\x91\xadF\xdc5\xe1\
-9\xb1\xcd\x94\x92\x9c\xe0\x0b\xb4\xc7\x05\xf8\xee\xd9\xbd5\
-N\xff`\xa0\xad\x1eI\x99\xf57\x94\xb8e\xa2\xc8\xf7\
-\xb9\xf22\xea\x1a\xadsh\x0fA\xc6\xd0\x01\x10X\x0f\
-\xec\xf3f{\x899\xdf\x81K\xa4\x18\x0a\x16\x11\xb5\xbe\
-Q\xf1\x0a,\x86\xc9\xb25n\xc8\x18\xcd}a|\x87\
-\xe3\x9e\xbfzG\x18\xfab>S\xc0\xbd\x0b\xa5\x7f\xb4\
-\xbdU\x13\x9f5\x9b\x98\x1f\x00\xaa\x5c\xf5\x96\xe6|\xc9\
-`M\x18h$6\xf13f\xd1\xcc\x1d\xa4[\xf8.\
-\xaa)\x93\xc22\xf8\x84+\xa4\x81 A8\xf1\x06\xc0\
->@z\x13\xc9z^\x1f\x19\xcf\xf0\x00\xd9;zU\
-\xdfl\xe74\xb5z\xf8\x17\x90\x95\x08\x09\xf4\xa2\xfc\xe7\
-\x17\x80\xb9DR\xcd\x06N\x10\x06\x16\xcd\xdb\xa2\xcd(\
-\xa2\xc6\x9b\x84{\xb6\x89k\x0c\x88\xbf+\xfay'\x0c\
-\x08jO\xe3RW\x05\x0a\xcc\x09\xf2\xad7\xe7\xd7\x05\
-\xcb\xb8\x81\x0b?X)AtU\xda\xd8/W\xfc\xa4\
-\x8bi\xd2\xdc{\xb8\x5c\x15q\xbfD-\xdd\x83\xed\xe8\
-\xc8\xeb\x02|\x22\x5c\xdf\x90\xcfr\x0e\xfd\x0a\x0br\xbe\
- \xdc\xbb\xfa\x14\x84Z\xdf\x04\x8a\x11\xb30:\x9f\x15\
-i\xe0e\x8bZ\xa2\xc1\x0arh\xa1t\xa6\x99\xb9d\
-F\x91\x8em(\xf0,\xd1`\xa7\x02~:\x84\xf4z\
-^\x92\x92mH\xa2:)\xf4\xce\xf2\x8fvDxH\
-\x82\xc79\x98\x0f\xffE\xd8y\xef\xc8;\xf6\xc3L\x1f\
-\xe1F\xc4\xd2%\x91\xda-}'\x97|\xd0 \xec\x83\
-z\xa0F\x9eh\x80O\xcb\xe0/\x93K\xdf\x068\xd9\
-\xbc\xd2\xfd\x83Z\x1bB\xb0\x1fSq\xb8pU|\xfa\
-\x05\xae\x81Ux\x8a\x06M\x06\xc2s\x98r\xf16\xad\
-u\x86\xc1\x0c\x008\xbc\xcf\xa1\xe2I\xa2\xaf\xa2\xb6\x89\
-d\xc4\x0f\xd8k\xcb\x17\x01\xbc\xe4Z\xb9~Z\xc2\x9d\
-\x9c\x7fy\xaeK\x14\x89J\x12\xbd7\xdf\xe1\x06\x89\x8f\
-{\x11v\xad\xe9B\x1c\xb0rd\x8a\xeb\xe5r\xa1\x8b\
-\xdc$O\x83\xa79`dT\x22WC\xc9\xbcJ\xde\
-\x9e5\xa9.%\xd2f\xd1;\xcd\x1a\x850^\xb1\xa5\
-\xe8\x92\xae\xf8\x1e\xc5,\x5c\xd2\x89\x9b\x92\x1b\x1f\xfc\x01\
-\x95\x90B\x19M\x84_\x93Th\x9f\x04\xa1\x92\x81V\
-J\x099\xf2h\xfa\xa6\x89\xfac\xf3YC\xc3\xf7\x90\
-c\xfb \x02J:\x1c\x01Y\x9f\x14B\x88\x8c\xc0q\
-(\xcc\xa0\xd0\x88\x8c\x9a\x8a\x81oql\xd4\xb1|.\
-\xcd\xd8j@\x83z2\x1b\x1fg\x14\xb6\xa1|K\xb4\
-\x94o\x9f\xe9A\xd9\x22vO\x14h\xb0\xaa\xc8_\xdb\
-<V\xf5\xc63|z\xefPQ$\xc3\x95\xda~{\
-\xe5\xe4\x09\x9b\x1b\x86\x9f\x0aI\x0c1G\xfa\x9f,+\
-\x0a\xa86\xba\x18\xb1@o\xa3\x9d\xcdT\xa6\x1f\xcc\xa3\
-N\xc4\x9a\xff\xd4k\x8a\x09\x1a\x10\xb3\x9d8\x198\x1b\
-\xe3\x06\xf4d\x8bq\x07!f\xa1\xe6j\x12\xfe\xfd\x98\
-\xab\x8a\xc1`^.\x9d\xa4\xb3H\x0f\x8fp\xea\x8cN\
-\xab\xd1Bt%\x8e\xcd\x5c\xb4\x97\xd2\x03\x83\xa8\x01\x95\
-\xa0^\xac\x96\xb7L\x8f\xe4c\x8152\xbc\x16-X\
-%;\x1a\x93\xef\x89/\xd1\x1b_=\xc2\xcb\x0d\x99.\
-\xf4\x98\xb2\x93\x16or\x98&\x07\xa4N\xd32ns\
-T\x09av.5\xa9\x19n\x10\xf1\x85\x1e\xea\x85\xef\
-\xc6M\xcc\xcc'4\xce&\x0e-\x9e0-\x06\xb8\x5c\
-dJ\xd5O\xad\xadc\xac\x98\xc2o\xe8\x12\xcbU$\
-Y\x13,W}\x14\xc00\x0f\x15P\x89\xd4\xde\x01\xd7\
-pN\x8e\xd8g\x88\x90\xde\x8a\x03\xa0\xf9uy\x17\xf1\
-\xa2V\xac\x81\xb3E\x08A`\xcb\x8bO\xbbJ\xac\xa3\
-\xb3\x22$6z\xfc\x84.\xad.\xfd\xfc#\x80\x9bT\
-#\xb9j\x9f\xb7,V\x94\x81\x22\x08\x95\xb3>\x92G\
-\xda{\x01iJQNU\xdc,\xda\xce2\xa9i\xd0\
-\xee(\xb9\xa9<\xb2\xb9}\x11\xac2\x9f\x06\x1f\xae\xdc\
-\xfc\x5c\xc5\x91\x04\xb6\xd1\xd8A\xc7\x14!\xb3\xe1c=\
-\xb5\x9cF\xbc\x1d\x8c\x8c\x9f7\xc0\x8fv\xda\x0eU*\
-\x98*\xa3\x15i.\x00Ob$Xnw\xfa\xc7'\
-\xa2\xd2\x17\x13D1Y\xc6\xcb\xc4I\xefK+<l\
-\xe0SP\xec%R4;6\xa9\xa6N\xf1S{{\
-1O\xe1W\x8a\xbb }\xf3AAi\xd5t\x99\x8c\
-\x88\xe4N(c\x97\xb2[\xc9H\xa8\x8f\xe63\x8d\xa6\
-;O&\x1b\xdb\x01\x1c\xbb\x10\x9b&S\xf9\x80\xb9\x03\
-\x9c/\x92\xac\xb6 S\x0b-\x91\xf6\xa7\xc235k\
-\xb0\xd0m\xbf6\x1e\xde-\xd9\xe0\xfd\x9c\x96\xd1\xa0\xc2\
-\x00\xc0\xcd\x13\x10\xff\x0b\x5c\xc1@T\xd3T4\xee<\
-\xe7=\x03<\xc7\xb4\x81\xfe\x89\x90\x9aotz\x99\x9d\
-C\x22\x89A\xc7\xc0E\x96\xec\xcd\x11\x816\xa0\x1c\x22\
-\xd7\x1e\x97\x00\x9a\x11\xd7\x0c[\xf0\xedw\x8eX\xb4\xbb\
-\x94`\xab\xecd\x85^B\x7f\x1c\x8aQ`R9\x03\
-\x07M\x894\xab\xaay\x13[$\x9d\x92\x0e\xe1\xd2\x09\
-U\xb5e\x0d\x96\xc1p{\x9c\xb5\xf3\x96o\x96uz\
-o\x8do;\xd9\xab\xd7G\xd8\xffb\xcf\x82\xedn\x92\
-\x1f\x08\x91\xb9B!~\xbc\x99B2\x97!ue\xfb\
-\xbc\xcb\xed<\xc0\xf1)P\x81<\x0d\x1cB\xef\xc4\xcb\
-\xbc\x07[u\x85c\xf0\xc7\xe9\x5ccI\xc0z\xdfj\
-\x8b\xda\xa8\xa9\xb0j\x22\x94\x9c;\xd9\xe4\x9e\x08\xa2\x10\
-\x98\x129\xd9)k\xfb>M\x98\x17.009\xd3\
-\x0b\x82Pl\x94\x04\xc9\xab\xba\x8f\x17\xaayI\xa6 \
-7k\xc3v\xbeq\xe0\xf5\xd8{\xc8\xbd\xcc\x1b\x920\
-F\xb8\xcck\x8c\xf9\xc9=\x88\xfe\xdd\x03]q\x0cJ\
-\xe7\x81\x8a0\x81Y\xe3\xb6;1\x9f`\xc8<\xe3\x15\
-\xc4\x7f\xc2S_\x95\xa0\x19GNb)\x9a)\xdbw\
-=\xa0l\xfe\xe9\x19\xff\x16s/_\x8d\x0c\x0c\xd7\x5c\
-\xaeW\x09}\xa6\xb3\x1a\x87\x01.[\x93\x10\x8d\x8c\x1d\
-p\x04<X\x9a\x83b\x0c}\x0d\x09\xa8k\xb9\x91\x86\
-S\xd9!\x05\xb7\x9fL\xfel\xa2-b\x80dz\xa8\
-J\xf8\x06%\xbf\x19b\x15\xb1\xb91\x7f U\x10<\
-\x88*#\xac7\x85S\x8d\x84\x03\x86\x98u\xa9p\x5c\
-\xf5[\xc2B\xf4\x12\xd6\x0a\xcff\xe2\xc29\x84m\xde\
-\x86OC\xc0;My\x8e\xec\x5cg\xc7\x98\x82\xe3j\
-\xcf_\xd6lPMK}\xbd\xe1\x8eD&_\x8c7\
-\xf8\xfez\xb0v\xe2i\xde\xf2HN\xe8\xfb4\xad\xb5\
-Q\xaa21;\xc2v\xab \xf0\xb4\xa2n\x01?8\
-h\xe9=\xed\xd1|B8<\xca/)\x15>\x92\x0e\
-\x16\xae=\xe8;9\x08\xae\xea\xf4N\xe7\xb5\x81c\x06\
-\xfb\x8aj\x1a8\xb5&>>k\xc1L\x90\x08\x92\xb0\
-\x14\x0a\xc0\x0eO\x06]\xcb\xf6M\xc86u\xcaA\x9c\
-\xbc\x8d\x9a3\xa0\xb7j\xe2w\x9a\xf2\x0c\x0a`\x88H\
-\x99\x7fZ\xf0\x98\xccf\xba{\xe3\xac=\xc1\x8e\xf4O\
-\x10/\xfd!m\xcf\x84\x7fp_\xfb\xec\xb9\x0c\x98\xd0\
-y^H\x8e:B\xd1\x91[\xffL<\x0b\x18\x9eb\
-\xa8\x15O.i\x14\xd87\xdcm\x92\x9f\xd9\xd1\x86\xcd\
-\xc6\x22\x05\x88\x12\x1e{\x5c\xdf\x9aQ\x06\x10\x9f\x04\x9c\
-2\x88\xbc\xa9\xc7z\x7f\xa6\xde\xe2M\x89?\x0c\x03\xc4\
-?'x\xcf6\xae\xbf\xc0M\x04%\x08]+'\xb9\
-l\xa2\xd84\xd3/\xfe\x9a\xca\x07\x88\xecK\xe5\xab+\
-ARR\xaf\x9c\xd3\x84X\xe8\x5c\x1c\xf4\xfb*\xe5\xd5\
->\xbe[\xcd\x13\xf1\x8a\x15\x8d\xb1\x11({\x8b\x1d<\
-\xbaVq4R\x86\xc1\xe2\x99\x0dT\xf2\x84\xcd\xfd\xb3\
-\xcdX\xb8mpu\xd1\xdaT\x11\x8ez\xfc\xe3\x88'\
-Q\x01\xc1)\xb9r\x0c-\xfe\x8fU\xc0T\x88\xa7\xec\
-\xb3\xad\xd6\x16_\xc8\x9a\x81Lq3\xb1\x9b\xf0\xf8\xe9\
-NQt\x01\x05\xb0\xab,\x1b\xd7\xe7\xe2\x95\x97\x01\x11\
-\xd7\x04\xea\xcd\xb07\xba\xae?V\x98\x81\x88\xe1\x18\xb0\
-\xcd\xdb\xbc\x89\xc9N\xe0_z\xef\x89\xd2u\x89\xc3;\
-\x06\xb5\xda\xb7\xa8Y\xc2\x87\x11@\xc5Fl!\xc3W\
-\xa7\x85\xe9\xa3\x07\xe6P\x87K\x98\xa5\x97O\x8f\xcfL\
-H,\xd6G\xea\xb4\x92\x22\x0a\x10XH\xf9\xc0\xb2K\
-\x0e\x13v\x8f\xfee`\xc97\x99\x99\xd2\xd7tv\xcc\
-\xd5\xbb\x97{\xe3\xe0\x04\x1a[D\x1f\x08\xf6\xa0\x8bf\
-\xc2\xa03\xca'\x16L(' \xe6r\xa3\x1ep\x8f\
-\x8d\xfa\x087\x7f\xb7\xe5\xd0`\x0a\xfe#\x07[=\xda\
-3\x1f\x14)\x5c;\x0d6\x110^<\xa2ui\xbc\
-\x0aK\x0cP\x1dFBe\xd18\x13'\xb5\x88\xcb\xca\
-[l*g\x14\x9aA\x91r\xa80CD\x93.H\
-\x84D\x83\x8b\x0e\xf5\xe3\xd5Rw\x96|/\xcd\xa2V\
-[\x01\xa7\xe0:\x8d\x1d\xe8Vo\xc4|\xa0g\xe8\x1b\
-M=\xa4\xec\x0983\x09\xc82sG8\xe8M[\
-\xde\x01\x1c\xf8\xb3\x1e\xc4\xb5\x12\xd3\xac\xd4\x96\x84\xa5\x90\
-\xeb\xa4\xf6\xf3\x9e\xf3~P\xca-\xf98\xc8\xcf6E\
-\x96\xcf\x0cE\x86\xe1\x22\x16\x87\xa6\x9ci\x11U6v\
-8\xea\xf7\x84>\xafC+HR9^\xf7\x11\x87\xd0\
-\xbda\x1f\xc1o\xc1fUQ\x88\xd2\xbc\x9e\xec\xb3\xd1\
-\x04\x07\xe9\xc5\xa5\xa5B\xb9\xc2\x14\x9d\xc5\x88w\x09\xce\
-j]\xeamgT)\xf3\xa8\xee\x93N\xf9\xa8\xa1\x10\
-\xe0\xcd\x17jQ\x80'x\x0e\xfe\xa1\xa1\x1d\xc8\xf0\xc1\
-!\xd05\xc4\xfd\x81\x99|\x0e\xa2\xe9\x0a):\xe2\x0b\
-\x0c\x84\x82C\x05\xce\xab[\xe8\x02\xd3q\xe7\xdf\x0d\xaa\
-\xc1P\x00\x12\xf9\x90\xe8\xb93!\x92\xf1\x1e\xcc\xc4\xf3\
-\x22\x0ekW`\xf8hI\x16\x88\x0e\
+\x00\x00\x91@\
+i\
+mport QtQuick\x0aim\
+port QtQuick.Con\
+trols.Basic\x0aimpo\
+rt QtQuick.Layou\
+ts\x0a\x0aApplicationW\
+indow {\x0a    id: \
+win\x0a    visible:\
+ true\x0a    width:\
+ 420\x0a    height:\
+ 860\x0a    minimum\
+Width: 320\x0a    m\
+inimumHeight: 56\
+0\x0a    title: \x22Da\
+yDone\x22\x0a    color\
+: Theme.bg\x0a\x0a    \
+// Make every st\
+ock control read\
+able on the dark\
+ theme.\x0a    pale\
+tte.window: Them\
+e.bg\x0a    palette\
+.windowText: The\
+me.text\x0a    pale\
+tte.text: Theme.\
+text\x0a    palette\
+.base: Theme.fie\
+ld\x0a    palette.b\
+utton: Theme.sur\
+faceHi\x0a    palet\
+te.buttonText: T\
+heme.text\x0a    pa\
+lette.highlight:\
+ Theme.accent\x0a  \
+  palette.highli\
+ghtedText: \x22#FFF\
+FFF\x22\x0a    palette\
+.placeholderText\
+: Theme.placehol\
+der\x0a\x0a    propert\
+y string todayDa\
+y: backend.today\
+Str()\x0a    proper\
+ty string select\
+edDay: todayDay\x0a\
+    property var\
+ todayStats: ({t\
+otal: 0, done: 0\
+, remaining: 0, \
+percent: 0})\x0a   \
+ property var se\
+lStats: ({total:\
+ 0, done: 0, rem\
+aining: 0, perce\
+nt: 0})\x0a    prop\
+erty var weekDat\
+a: []\x0a    proper\
+ty int streak: 0\
+\x0a    property in\
+t tab: 0\x0a    pro\
+perty string now\
+HM: Qt.formatTim\
+e(new Date(), \x22h\
+h:mm\x22)\x0a\x0a    List\
+Model { id: task\
+Model }\x0a\x0a    fun\
+ction greeting()\
+ {\x0a        var h\
+ = new Date().ge\
+tHours()\x0a       \
+ return h < 12 ?\
+ \x22Good morning\x22 \
+: (h < 17 ? \x22Goo\
+d afternoon\x22 : \x22\
+Good evening\x22)\x0a \
+   }\x0a    functio\
+n isoDate(offset\
+) {\x0a        var \
+d = new Date(); \
+d.setDate(d.getD\
+ate() + offset)\x0a\
+        return Q\
+t.formatDate(d, \
+\x22yyyy-MM-dd\x22)\x0a  \
+  }\x0a    function\
+ refresh() {\x0a   \
+     todayDay = \
+backend.todayStr\
+()\x0a        taskM\
+odel.clear()\x0a   \
+     var list = \
+backend.tasksFor\
+(selectedDay)\x0a  \
+      for (var i\
+ = 0; i < list.l\
+ength; i++) {\x0a  \
+          var t \
+= list[i]\x0a      \
+      taskModel.\
+append({tid: t.i\
+d, title: t.titl\
+e, notes: t.note\
+s, time: t.time,\
+\x0a               \
+               p\
+riority: t.prior\
+ity, kind: t.kin\
+d, done: t.done,\
+\x0a               \
+               s\
+tatus: t.done ? \
+\x22Done\x22 : \x22Remain\
+ing\x22})\x0a        }\
+\x0a        selStat\
+s = backend.stat\
+s(selectedDay)\x0a \
+       todayStat\
+s = backend.stat\
+s(todayDay)\x0a    \
+    weekData = b\
+ackend.weekStats\
+(todayDay)\x0a     \
+   streak = back\
+end.streak()\x0a   \
+ }\x0a    function \
+insight() {\x0a    \
+    var best = n\
+ull, tot = 0, dn\
+ = 0\x0a        for\
+ (var i = 0; i <\
+ weekData.length\
+; i++) {\x0a       \
+     var w = wee\
+kData[i]\x0a       \
+     if (w.futur\
+e) continue\x0a    \
+        tot += w\
+.total; dn += w.\
+done\x0a           \
+ if (w.total > 0\
+ && (best === nu\
+ll || w.percent \
+> best.percent))\
+ best = w\x0a      \
+  }\x0a        if (\
+tot === 0) retur\
+n \x22Add a few tas\
+ks and your week\
+ly insights will\
+ show up here.\x22\x0a\
+        return \x22\
+You've completed\
+ \x22 + dn + \x22 of \x22\
+ + tot + \x22 tasks\
+ this week. Best\
+ day so far: \x22\x0a \
+              + \
+best.label + \x22 (\
+\x22 + best.percent\
+ + \x22%).\x22\x0a    }\x0a\x0a\
+    Timer {\x0a    \
+    interval: 30\
+000; running: tr\
+ue; repeat: true\
+\x0a        onTrigg\
+ered: { nowHM = \
+Qt.formatTime(ne\
+w Date(), \x22hh:mm\
+\x22); if (backend.\
+todayStr() !== t\
+odayDay) refresh\
+() }\x0a    }\x0a    C\
+onnections {\x0a   \
+     target: bac\
+kend\x0a        fun\
+ction onChanged(\
+) { win.refresh(\
+) }\x0a        func\
+tion onCelebrate\
+() { confetti.fi\
+re() }\x0a        f\
+unction onToast(\
+msg) { toastText\
+.text = msg; toa\
+st.opacity = 1; \
+toastTimer.resta\
+rt() }\x0a    }\x0a   \
+ Component.onCom\
+pleted: {\x0a      \
+  refresh()\x0a    \
+    if (backend.\
+shouldCelebrateO\
+nOpen()) openTim\
+er.start()\x0a    }\
+\x0a    Timer { id:\
+ openTimer; inte\
+rval: 500; onTri\
+ggered: confetti\
+.fire() }\x0a\x0a    /\
+/ ==============\
+================\
+================\
+======== SHELL\x0a \
+   Item {\x0a      \
+  id: shell\x0a    \
+    anchors.top:\
+ parent.top\x0a    \
+    anchors.bott\
+om: parent.botto\
+m\x0a        anchor\
+s.horizontalCent\
+er: parent.horiz\
+ontalCenter\x0a    \
+    width: Math.\
+min(win.width, 5\
+60)\x0a\x0a        Col\
+umnLayout {\x0a    \
+        anchors.\
+fill: parent\x0a   \
+         spacing\
+: 0\x0a\x0a           \
+ // ---------- h\
+eader\x0a          \
+  Item {\x0a       \
+         Layout.\
+fillWidth: true\x0a\
+                \
+Layout.preferred\
+Height: 90 + bac\
+kend.topInset\x0a\x0a \
+               C\
+olumn {\x0a        \
+            anch\
+ors.left: parent\
+.left; anchors.l\
+eftMargin: 20\x0a  \
+                \
+  anchors.bottom\
+: parent.bottom;\
+ anchors.bottomM\
+argin: 14\x0a      \
+              sp\
+acing: 3\x0a       \
+             Tex\
+t {\x0a            \
+            text\
+: tab === 0 ? wi\
+n.greeting() : \x22\
+Your progress\x22\x0a \
+                \
+       color: Th\
+eme.text; font.p\
+ixelSize: 27; fo\
+nt.weight: Font.\
+Bold\x0a           \
+         }\x0a     \
+               T\
+ext {\x0a          \
+              te\
+xt: Qt.formatDat\
+e(new Date(selec\
+tedDay + \x22T12:00\
+:00\x22), \x22dddd, d \
+MMMM\x22)\x0a         \
+               c\
+olor: Theme.text\
+Secondary; font.\
+pixelSize: 14\x0a  \
+                \
+  }\x0a            \
+    }\x0a          \
+      Rectangle \
+{\x0a              \
+      anchors.ri\
+ght: parent.righ\
+t; anchors.right\
+Margin: 20\x0a     \
+               a\
+nchors.bottom: p\
+arent.bottom; an\
+chors.bottomMarg\
+in: 18\x0a         \
+           heigh\
+t: 36; width: st\
+reakRow.width + \
+26; radius: 18\x0a \
+                \
+   color: Qt.alp\
+ha(Theme.warning\
+, 0.14)\x0a        \
+            bord\
+er.width: 1; bor\
+der.color: Qt.al\
+pha(Theme.warnin\
+g, 0.45)\x0a       \
+             Row\
+ {\x0a             \
+           id: s\
+treakRow\x0a       \
+                \
+ anchors.centerI\
+n: parent\x0a      \
+                \
+  spacing: 6\x0a   \
+                \
+     Glyph { nam\
+e: \x22flame\x22; size\
+: 16; color: The\
+me.warning; anch\
+ors.verticalCent\
+er: parent.verti\
+calCenter }\x0a    \
+                \
+    Text {\x0a     \
+                \
+       text: str\
+eak + (streak ==\
+= 1 ? \x22 day\x22 : \x22\
+ days\x22)\x0a        \
+                \
+    color: Theme\
+.warning; font.p\
+ixelSize: 14; fo\
+nt.weight: Font.\
+Bold\x0a           \
+                \
+ anchors.vertica\
+lCenter: parent.\
+verticalCenter\x0a \
+                \
+       }\x0a       \
+             }\x0a \
+               }\
+\x0a            }\x0a\x0a\
+            // -\
+--------- pages\x0a\
+            Stac\
+kLayout {\x0a      \
+          Layout\
+.fillWidth: true\
+\x0a               \
+ Layout.fillHeig\
+ht: true\x0a       \
+         current\
+Index: tab\x0a\x0a    \
+            // =\
+================\
+ TASKS\x0a         \
+       ColumnLay\
+out {\x0a          \
+          spacin\
+g: 14\x0a\x0a         \
+           RowLa\
+yout {\x0a         \
+               L\
+ayout.fillWidth:\
+ true\x0a          \
+              La\
+yout.leftMargin:\
+ 16; Layout.righ\
+tMargin: 16\x0a    \
+                \
+    spacing: 8\x0a \
+                \
+       Repeater \
+{\x0a              \
+              mo\
+del: weekData\x0a  \
+                \
+          Rectan\
+gle {\x0a          \
+                \
+      Layout.fil\
+lWidth: true\x0a   \
+                \
+             Lay\
+out.preferredHei\
+ght: 70\x0a        \
+                \
+        radius: \
+16\x0a             \
+                \
+   readonly prop\
+erty bool sel: m\
+odelData.day ===\
+ selectedDay\x0a   \
+                \
+             rea\
+donly property b\
+ool full: modelD\
+ata.total > 0 &&\
+ modelData.done \
+=== modelData.to\
+tal\x0a            \
+                \
+    color: sel ?\
+ Theme.accent : \
+Theme.surface\x0a  \
+                \
+              bo\
+rder.width: 1\x0a  \
+                \
+              bo\
+rder.color: sel \
+? Theme.accentHi\
+ : (modelData.is\
+Today ? Theme.ac\
+cent : Theme.bor\
+der)\x0a           \
+                \
+     Column {\x0a  \
+                \
+                \
+  anchors.center\
+In: parent\x0a     \
+                \
+               s\
+pacing: 3\x0a      \
+                \
+              Te\
+xt { anchors.hor\
+izontalCenter: p\
+arent.horizontal\
+Center; text: mo\
+delData.label; c\
+olor: parent.par\
+ent.sel ? \x22#F1ED\
+FF\x22 : Theme.text\
+Secondary; font.\
+pixelSize: 12 }\x0a\
+                \
+                \
+    Text { ancho\
+rs.horizontalCen\
+ter: parent.hori\
+zontalCenter; te\
+xt: modelData.nu\
+m; color: \x22#FFFF\
+FF\x22; font.pixelS\
+ize: 19; font.we\
+ight: Font.Bold \
+}\x0a              \
+                \
+      Rectangle \
+{\x0a              \
+                \
+          anchor\
+s.horizontalCent\
+er: parent.horiz\
+ontalCenter\x0a    \
+                \
+                \
+    width: 6; he\
+ight: 6; radius:\
+ 3\x0a             \
+                \
+           color\
+: parent.parent.\
+full ? (parent.p\
+arent.sel ? \x22#FF\
+FFFF\x22 : Theme.su\
+ccess)\x0a         \
+                \
+                \
+    : (modelData\
+.total > 0 ? The\
+me.textMuted : \x22\
+transparent\x22)\x0a  \
+                \
+                \
+  }\x0a            \
+                \
+    }\x0a          \
+                \
+      MouseArea \
+{ anchors.fill: \
+parent; onClicke\
+d: { selectedDay\
+ = modelData.day\
+; refresh() } }\x0a\
+                \
+            }\x0a  \
+                \
+      }\x0a        \
+            }\x0a\x0a \
+                \
+   // progress c\
+ard\x0a            \
+        Rectangl\
+e {\x0a            \
+            id: \
+progCard\x0a       \
+                \
+ Layout.fillWidt\
+h: true\x0a        \
+                \
+Layout.leftMargi\
+n: 16; Layout.ri\
+ghtMargin: 16\x0a  \
+                \
+      Layout.pre\
+ferredHeight: 11\
+2\x0a              \
+          radius\
+: 22\x0a           \
+             rea\
+donly property b\
+ool full: selSta\
+ts.total > 0 && \
+selStats.done ==\
+= selStats.total\
+\x0a               \
+         gradien\
+t: Gradient {\x0a  \
+                \
+          orient\
+ation: Gradient.\
+Horizontal\x0a     \
+                \
+       GradientS\
+top { position: \
+0; color: progCa\
+rd.full ? \x22#0B7A\
+56\x22 : \x22#5636E6\x22 \
+}\x0a              \
+              Gr\
+adientStop { pos\
+ition: 1; color:\
+ progCard.full ?\
+ \x22#13946C\x22 : \x22#8\
+B5CF6\x22 }\x0a       \
+                \
+ }\x0a             \
+           Item \
+{\x0a              \
+              an\
+chors.fill: pare\
+nt; anchors.marg\
+ins: 18\x0a        \
+                \
+    Column {\x0a   \
+                \
+             anc\
+hors.left: paren\
+t.left; anchors.\
+top: parent.top\x0a\
+                \
+                \
+spacing: 4\x0a     \
+                \
+           Text \
+{\x0a              \
+                \
+      text: selS\
+tats.total === 0\
+ ? \x22Nothing plan\
+ned\x22 : (progCard\
+.full ? \x22All tas\
+ks complete\x22 : \x22\
+Progress\x22)\x0a     \
+                \
+               c\
+olor: \x22#EDE9FF\x22;\
+ font.pixelSize:\
+ 13; font.weight\
+: Font.DemiBold\x0a\
+                \
+                \
+}\x0a              \
+                \
+  Text {\x0a       \
+                \
+             tex\
+t: selStats.tota\
+l === 0 ? \x22Add y\
+our first task\x22 \
+: selStats.done \
++ \x22 of \x22 + selSt\
+ats.total + \x22 do\
+ne\x22\x0a            \
+                \
+        color: \x22\
+#FFFFFF\x22; font.p\
+ixelSize: 22; fo\
+nt.weight: Font.\
+Bold\x0a           \
+                \
+     }\x0a         \
+                \
+   }\x0a           \
+                \
+ Text {\x0a        \
+                \
+        anchors.\
+right: parent.ri\
+ght; anchors.top\
+: parent.top\x0a   \
+                \
+             tex\
+t: selStats.perc\
+ent + \x22%\x22\x0a      \
+                \
+          color:\
+ \x22#FFFFFF\x22; font\
+.pixelSize: 34; \
+font.weight: Fon\
+t.Bold\x0a         \
+                \
+   }\x0a           \
+                \
+ Rectangle {\x0a   \
+                \
+             anc\
+hors.left: paren\
+t.left; anchors.\
+right: parent.ri\
+ght; anchors.bot\
+tom: parent.bott\
+om\x0a             \
+                \
+   height: 8; ra\
+dius: 4; color: \
+\x22#55FFFFFF\x22\x0a    \
+                \
+            Rect\
+angle {\x0a        \
+                \
+            heig\
+ht: parent.heigh\
+t; radius: 4; co\
+lor: \x22#FFFFFF\x22\x0a \
+                \
+                \
+   width: parent\
+.width * selStat\
+s.percent / 100\x0a\
+                \
+                \
+    Behavior on \
+width { NumberAn\
+imation { durati\
+on: 350; easing.\
+type: Easing.Out\
+Cubic } }\x0a      \
+                \
+          }\x0a    \
+                \
+        }\x0a      \
+                \
+  }\x0a            \
+        }\x0a\x0a     \
+               L\
+istView {\x0a      \
+                \
+  id: list\x0a     \
+                \
+   Layout.fillWi\
+dth: true\x0a      \
+                \
+  Layout.fillHei\
+ght: true\x0a      \
+                \
+  Layout.leftMar\
+gin: 16; Layout.\
+rightMargin: 16\x0a\
+                \
+        clip: tr\
+ue\x0a             \
+           spaci\
+ng: 10\x0a         \
+               m\
+odel: taskModel\x0a\
+                \
+        bottomMa\
+rgin: 110\x0a      \
+                \
+  boundsBehavior\
+: Flickable.Stop\
+AtBounds\x0a       \
+                \
+ section.propert\
+y: \x22status\x22\x0a    \
+                \
+    section.crit\
+eria: ViewSectio\
+n.FullString\x0a   \
+                \
+     section.del\
+egate: Item {\x0a  \
+                \
+          width:\
+ list.width; hei\
+ght: 36\x0a        \
+                \
+    Text {\x0a     \
+                \
+           ancho\
+rs.left: parent.\
+left; anchors.le\
+ftMargin: 4\x0a    \
+                \
+            anch\
+ors.bottom: pare\
+nt.bottom; ancho\
+rs.bottomMargin:\
+ 4\x0a             \
+                \
+   text: section\
+ === \x22Remaining\x22\
+ ? \x22REMAINING  \xc2\
+\xb7  \x22 + selStats.\
+remaining\x0a      \
+                \
+                \
+                \
+        : \x22COMPL\
+ETED  \xc2\xb7  \x22 + se\
+lStats.done\x0a    \
+                \
+            colo\
+r: section === \x22\
+Remaining\x22 ? The\
+me.warning : The\
+me.success\x0a     \
+                \
+           font.\
+pixelSize: 12; f\
+ont.weight: Font\
+.Bold; font.lett\
+erSpacing: 1.2\x0a \
+                \
+           }\x0a   \
+                \
+     }\x0a         \
+               d\
+elegate: TaskCar\
+d {\x0a            \
+                \
+width: list.widt\
+h\x0a              \
+              ta\
+skId: model.tid\x0a\
+                \
+            titl\
+e: model.title\x0a \
+                \
+           notes\
+: model.notes\x0a  \
+                \
+          time: \
+model.time\x0a     \
+                \
+       priority:\
+ model.priority\x0a\
+                \
+            kind\
+: model.kind\x0a   \
+                \
+         done: m\
+odel.done\x0a      \
+                \
+      overdue: !\
+model.done && mo\
+del.time !== \x22\x22 \
+&& selectedDay =\
+== todayDay && m\
+odel.time <= now\
+HM\x0a             \
+               o\
+nToggled: backen\
+d.toggle(model.t\
+id, selectedDay)\
+\x0a               \
+             onR\
+emoveRequested: \
+{ delConfirm.tid\
+ = model.tid; de\
+lConfirm.open() \
+}\x0a              \
+          }\x0a\x0a   \
+                \
+     Column {\x0a  \
+                \
+          anchor\
+s.centerIn: pare\
+nt\x0a             \
+               v\
+isible: taskMode\
+l.count === 0\x0a  \
+                \
+          spacin\
+g: 10\x0a          \
+                \
+  Rectangle {\x0a  \
+                \
+              an\
+chors.horizontal\
+Center: parent.h\
+orizontalCenter\x0a\
+                \
+                \
+width: 84; heigh\
+t: 84; radius: 4\
+2; color: Theme.\
+surface\x0a        \
+                \
+        border.w\
+idth: 1; border.\
+color: Theme.bor\
+der\x0a            \
+                \
+    Glyph { anch\
+ors.centerIn: pa\
+rent; name: \x22tas\
+ks\x22; size: 38; c\
+olor: Theme.acce\
+ntHi }\x0a         \
+                \
+   }\x0a           \
+                \
+ Text { anchors.\
+horizontalCenter\
+: parent.horizon\
+talCenter; text:\
+ \x22No tasks for t\
+his day\x22; color:\
+ Theme.text; fon\
+t.pixelSize: 18;\
+ font.weight: Fo\
+nt.DemiBold }\x0a  \
+                \
+          Text {\
+ anchors.horizon\
+talCenter: paren\
+t.horizontalCent\
+er; text: \x22Tap t\
+he + button to p\
+lan your day.\x22; \
+color: Theme.tex\
+tSecondary; font\
+.pixelSize: 14 }\
+\x0a               \
+         }\x0a     \
+               }\
+\x0a               \
+ }\x0a\x0a            \
+    // =========\
+======== DASHBOA\
+RD\x0a             \
+   Flickable {\x0a \
+                \
+   contentHeight\
+: dash.height + \
+40\x0a             \
+       clip: tru\
+e\x0a              \
+      boundsBeha\
+vior: Flickable.\
+StopAtBounds\x0a   \
+                \
+ Column {\x0a      \
+                \
+  id: dash\x0a     \
+                \
+   x: 16; width:\
+ parent.width - \
+32\x0a             \
+           spaci\
+ng: 14\x0a\x0a        \
+                \
+Rectangle {\x0a    \
+                \
+        width: p\
+arent.width; hei\
+ght: 196; radius\
+: 22\x0a           \
+                \
+ color: Theme.su\
+rface; border.wi\
+dth: 1; border.c\
+olor: Theme.bord\
+er\x0a             \
+               R\
+ow {\x0a           \
+                \
+     anchors.cen\
+terIn: parent\x0a  \
+                \
+              sp\
+acing: 22\x0a      \
+                \
+          Item {\
+\x0a               \
+                \
+     width: 138;\
+ height: 138\x0a   \
+                \
+                \
+ Canvas {\x0a      \
+                \
+                \
+  id: ring\x0a     \
+                \
+                \
+   anchors.fill:\
+ parent\x0a        \
+                \
+                \
+property real pc\
+t: todayStats.pe\
+rcent\x0a          \
+                \
+              on\
+PctChanged: requ\
+estPaint()\x0a     \
+                \
+                \
+   Component.onC\
+ompleted: reques\
+tPaint()\x0a       \
+                \
+                \
+ onPaint: {\x0a    \
+                \
+                \
+        var ctx \
+= getContext(\x222d\
+\x22); ctx.reset()\x0a\
+                \
+                \
+            var \
+cx = width / 2, \
+cy = height / 2,\
+ r = 56\x0a        \
+                \
+                \
+    ctx.lineWidt\
+h = 14; ctx.line\
+Cap = \x22round\x22\x0a  \
+                \
+                \
+          ctx.st\
+rokeStyle = \x22#2A\
+3560\x22\x0a          \
+                \
+                \
+  ctx.beginPath(\
+); ctx.arc(cx, c\
+y, r, 0, 2 * Mat\
+h.PI); ctx.strok\
+e()\x0a            \
+                \
+                \
+if (pct > 0) {\x0a \
+                \
+                \
+               c\
+tx.strokeStyle =\
+ pct === 100 ? \x22\
+#34D399\x22 : \x22#9B8\
+6FF\x22\x0a           \
+                \
+                \
+     ctx.beginPa\
+th()\x0a           \
+                \
+                \
+     ctx.arc(cx,\
+ cy, r, -Math.PI\
+ / 2, -Math.PI /\
+ 2 + 2 * Math.PI\
+ * pct / 100)\x0a  \
+                \
+                \
+              ct\
+x.stroke()\x0a     \
+                \
+                \
+       }\x0a       \
+                \
+                \
+ }\x0a             \
+                \
+       }\x0a       \
+                \
+             Col\
+umn {\x0a          \
+                \
+              an\
+chors.centerIn: \
+parent\x0a         \
+                \
+               T\
+ext { anchors.ho\
+rizontalCenter: \
+parent.horizonta\
+lCenter; text: t\
+odayStats.percen\
+t + \x22%\x22; color: \
+\x22#FFFFFF\x22; font.\
+pixelSize: 30; f\
+ont.weight: Font\
+.Bold }\x0a        \
+                \
+                \
+Text { anchors.h\
+orizontalCenter:\
+ parent.horizont\
+alCenter; text: \
+\x22today\x22; color: \
+Theme.textSecond\
+ary; font.pixelS\
+ize: 13 }\x0a      \
+                \
+              }\x0a\
+                \
+                \
+}\x0a              \
+                \
+  Column {\x0a     \
+                \
+               a\
+nchors.verticalC\
+enter: parent.ve\
+rticalCenter\x0a   \
+                \
+                \
+ spacing: 6\x0a    \
+                \
+                \
+Text { text: \x22Da\
+ily performance\x22\
+; color: \x22#FFFFF\
+F\x22; font.pixelSi\
+ze: 16; font.wei\
+ght: Font.Bold }\
+\x0a               \
+                \
+     Text {\x0a    \
+                \
+                \
+    width: 130; \
+wrapMode: Text.W\
+ordWrap\x0a        \
+                \
+                \
+text: todayStats\
+.total === 0 ? \x22\
+No tasks planned\
+ for today.\x22\x0a   \
+                \
+                \
+           : (to\
+dayStats.remaini\
+ng === 0 ? \x22Ever\
+ything is done. \
+Great job!\x22\x0a    \
+                \
+                \
+             : t\
+odayStats.remain\
+ing + \x22 more to \
+go \xe2\x80\x94 you've go\
+t this.\x22)\x0a      \
+                \
+                \
+  color: Theme.t\
+extSecondary; fo\
+nt.pixelSize: 13\
+\x0a               \
+                \
+     }\x0a         \
+                \
+       }\x0a       \
+                \
+     }\x0a         \
+               }\
+\x0a\x0a              \
+          RowLay\
+out {\x0a          \
+                \
+  width: parent.\
+width; spacing: \
+10\x0a             \
+               S\
+tatTile { Layout\
+.fillWidth: true\
+; label: \x22Comple\
+ted\x22; value: tod\
+ayStats.done; ti\
+nt: Theme.succes\
+s; iconName: \x22ch\
+eck\x22 }\x0a         \
+                \
+   StatTile { La\
+yout.fillWidth: \
+true; label: \x22Re\
+maining\x22; value:\
+ todayStats.rema\
+ining; tint: The\
+me.warning; icon\
+Name: \x22clock\x22 }\x0a\
+                \
+            Stat\
+Tile { Layout.fi\
+llWidth: true; l\
+abel: \x22Day strea\
+k\x22; value: strea\
+k; tint: Theme.a\
+ccentHi; iconNam\
+e: \x22flame\x22 }\x0a   \
+                \
+     }\x0a\x0a        \
+                \
+Rectangle {\x0a    \
+                \
+        width: p\
+arent.width; hei\
+ght: 282; radius\
+: 22\x0a           \
+                \
+ color: Theme.su\
+rface; border.wi\
+dth: 1; border.c\
+olor: Theme.bord\
+er\x0a             \
+               T\
+ext { x: 20; y: \
+18; text: \x22Weekl\
+y performance\x22; \
+color: \x22#FFFFFF\x22\
+; font.pixelSize\
+: 16; font.weigh\
+t: Font.Bold }\x0a \
+                \
+           Text \
+{\x0a              \
+                \
+  anchors.right:\
+ parent.right; a\
+nchors.rightMarg\
+in: 20; y: 20\x0a  \
+                \
+              te\
+xt: { var t = 0,\
+ d = 0\x0a         \
+                \
+               f\
+or (var i = 0; i\
+ < weekData.leng\
+th; i++) { if (w\
+eekData[i].futur\
+e) continue; t +\
+= weekData[i].to\
+tal; d += weekDa\
+ta[i].done }\x0a   \
+                \
+                \
+     return t ? \
+Math.round(100 *\
+ d / t) + \x22% thi\
+s week\x22 : \x22No ta\
+sks yet\x22 }\x0a     \
+                \
+           color\
+: Theme.accentHi\
+; font.pixelSize\
+: 13; font.weigh\
+t: Font.Bold\x0a   \
+                \
+         }\x0a     \
+                \
+       Row {\x0a   \
+                \
+             anc\
+hors.left: paren\
+t.left; anchors.\
+right: parent.ri\
+ght; anchors.mar\
+gins: 20\x0a       \
+                \
+         anchors\
+.bottom: parent.\
+bottom; anchors.\
+bottomMargin: 16\
+\x0a               \
+                \
+ height: 200; sp\
+acing: 8\x0a       \
+                \
+         Repeate\
+r {\x0a            \
+                \
+        model: w\
+eekData\x0a        \
+                \
+            Item\
+ {\x0a             \
+                \
+           width\
+: (parent.width \
+- 48) / 7; heigh\
+t: parent.height\
+\x0a               \
+                \
+         Text {\x0a\
+                \
+                \
+            anch\
+ors.horizontalCe\
+nter: parent.hor\
+izontalCenter\x0a  \
+                \
+                \
+          anchor\
+s.bottom: bar.to\
+p; anchors.botto\
+mMargin: 6\x0a     \
+                \
+                \
+       text: (mo\
+delData.total > \
+0 && !modelData.\
+future) ? modelD\
+ata.percent + \x22%\
+\x22 : \x22\xe2\x80\x93\x22\x0a      \
+                \
+                \
+      color: The\
+me.textSecondary\
+; font.pixelSize\
+: 11\x0a           \
+                \
+             }\x0a \
+                \
+                \
+       Rectangle\
+ {\x0a             \
+                \
+               i\
+d: bar\x0a         \
+                \
+                \
+   anchors.horiz\
+ontalCenter: par\
+ent.horizontalCe\
+nter\x0a           \
+                \
+                \
+ anchors.bottom:\
+ lbl.top; anchor\
+s.bottomMargin: \
+8\x0a              \
+                \
+              wi\
+dth: Math.min(pa\
+rent.width * 0.7\
+5, 34)\x0a         \
+                \
+                \
+   height: Math.\
+max(6, (parent.h\
+eight - 56) * (m\
+odelData.future \
+? 0 : modelData.\
+percent) / 100)\x0a\
+                \
+                \
+            radi\
+us: 8\x0a          \
+                \
+                \
+  color: modelDa\
+ta.percent === 1\
+00 ? Theme.succe\
+ss\x0a             \
+                \
+                \
+    : (modelData\
+.percent === 0 ?\
+ Theme.border : \
+(modelData.isTod\
+ay ? Theme.accen\
+tHi : Theme.acce\
+nt))\x0a           \
+                \
+                \
+ Behavior on hei\
+ght { NumberAnim\
+ation { duration\
+: 450; easing.ty\
+pe: Easing.OutCu\
+bic } }\x0a        \
+                \
+                \
+}\x0a              \
+                \
+          Text {\
+\x0a               \
+                \
+             id:\
+ lbl\x0a           \
+                \
+                \
+ anchors.horizon\
+talCenter: paren\
+t.horizontalCent\
+er\x0a             \
+                \
+               a\
+nchors.bottom: p\
+arent.bottom\x0a   \
+                \
+                \
+         text: m\
+odelData.label\x0a \
+                \
+                \
+           color\
+: modelData.isTo\
+day ? \x22#FFFFFF\x22 \
+: Theme.textSeco\
+ndary\x0a          \
+                \
+                \
+  font.pixelSize\
+: 12; font.weigh\
+t: modelData.isT\
+oday ? Font.Bold\
+ : Font.Normal\x0a \
+                \
+                \
+       }\x0a       \
+                \
+             }\x0a \
+                \
+               }\
+\x0a               \
+             }\x0a \
+                \
+       }\x0a\x0a      \
+                \
+  Rectangle {\x0a  \
+                \
+          width:\
+ parent.width; h\
+eight: insightTx\
+t.height + 36; r\
+adius: 22\x0a      \
+                \
+      color: Qt.\
+alpha(Theme.acce\
+nt, 0.16)\x0a      \
+                \
+      border.wid\
+th: 1; border.co\
+lor: Qt.alpha(Th\
+eme.accentHi, 0.\
+5)\x0a             \
+               T\
+ext {\x0a          \
+                \
+      id: insigh\
+tTxt\x0a           \
+                \
+     x: 18; y: 1\
+8; width: parent\
+.width - 36\x0a    \
+                \
+            wrap\
+Mode: Text.WordW\
+rap\x0a            \
+                \
+    text: win.in\
+sight()\x0a        \
+                \
+        color: \x22\
+#EDE9FF\x22; font.p\
+ixelSize: 14; li\
+neHeight: 1.2\x0a  \
+                \
+          }\x0a    \
+                \
+    }\x0a          \
+          }\x0a    \
+            }\x0a  \
+          }\x0a\x0a   \
+         // ----\
+------ bottom na\
+vigation\x0a       \
+     Rectangle {\
+\x0a               \
+ Layout.fillWidt\
+h: true\x0a        \
+        Layout.p\
+referredHeight: \
+68 + backend.bot\
+tomInset\x0a       \
+         color: \
+Theme.surface\x0a  \
+              Re\
+ctangle { width:\
+ parent.width; h\
+eight: 1; color:\
+ Theme.border }\x0a\
+                \
+Row {\x0a          \
+          width:\
+ parent.width; h\
+eight: 68\x0a      \
+              Re\
+peater {\x0a       \
+                \
+ model: [{icon: \
+\x22tasks\x22, label: \
+\x22Tasks\x22}, {icon:\
+ \x22chart\x22, label:\
+ \x22Dashboard\x22}]\x0a \
+                \
+       Item {\x0a  \
+                \
+          width:\
+ parent.width / \
+2; height: 68\x0a  \
+                \
+          readon\
+ly property bool\
+ active: tab ===\
+ index\x0a         \
+                \
+   Rectangle {\x0a \
+                \
+               a\
+nchors.top: pare\
+nt.top; anchors.\
+horizontalCenter\
+: parent.horizon\
+talCenter\x0a      \
+                \
+          width:\
+ 32; height: 3; \
+radius: 1.5\x0a    \
+                \
+            colo\
+r: parent.active\
+ ? Theme.accentH\
+i : \x22transparent\
+\x22\x0a              \
+              }\x0a\
+                \
+            Colu\
+mn {\x0a           \
+                \
+     anchors.cen\
+terIn: parent; s\
+pacing: 4\x0a      \
+                \
+          Glyph \
+{ anchors.horizo\
+ntalCenter: pare\
+nt.horizontalCen\
+ter; name: model\
+Data.icon; size:\
+ 24; color: pare\
+nt.parent.active\
+ ? Theme.accentH\
+i : Theme.textMu\
+ted }\x0a          \
+                \
+      Text { anc\
+hors.horizontalC\
+enter: parent.ho\
+rizontalCenter; \
+text: modelData.\
+label; color: pa\
+rent.parent.acti\
+ve ? \x22#FFFFFF\x22 :\
+ Theme.textMuted\
+; font.pixelSize\
+: 12; font.weigh\
+t: parent.parent\
+.active ? Font.B\
+old : Font.Norma\
+l }\x0a            \
+                \
+}\x0a              \
+              Mo\
+useArea { anchor\
+s.fill: parent; \
+onClicked: tab =\
+ index }\x0a       \
+                \
+ }\x0a             \
+       }\x0a       \
+         }\x0a     \
+       }\x0a       \
+ }\x0a\x0a        // -\
+--------- floati\
+ng add button\x0a  \
+      Rectangle \
+{\x0a            vi\
+sible: tab === 0\
+\x0a            wid\
+th: 62; height: \
+62; radius: 31\x0a \
+           ancho\
+rs.right: parent\
+.right; anchors.\
+rightMargin: 20\x0a\
+            anch\
+ors.bottom: pare\
+nt.bottom; ancho\
+rs.bottomMargin:\
+ 68 + backend.bo\
+ttomInset + 18\x0a \
+           scale\
+: fabArea.presse\
+d ? 0.93 : 1\x0a   \
+         Behavio\
+r on scale { Num\
+berAnimation { d\
+uration: 90 } }\x0a\
+            grad\
+ient: Gradient {\
+\x0a               \
+ GradientStop { \
+position: 0; col\
+or: \x22#8B5CF6\x22 }\x0a\
+                \
+GradientStop { p\
+osition: 1; colo\
+r: \x22#5636E6\x22 }\x0a \
+           }\x0a   \
+         border.\
+width: 1; border\
+.color: \x22#B7A6FF\
+\x22\x0a            Gl\
+yph { anchors.ce\
+nterIn: parent; \
+name: \x22plus\x22; si\
+ze: 28; stroke: \
+2.8; color: \x22#FF\
+FFFF\x22 }\x0a        \
+    MouseArea { \
+id: fabArea; anc\
+hors.fill: paren\
+t; onClicked: ad\
+dPopup.open() }\x0a\
+        }\x0a    }\x0a\
+\x0a    // ========\
+================\
+================\
+============== T\
+OAST\x0a    Rectang\
+le {\x0a        id:\
+ toast\x0a        o\
+pacity: 0\x0a      \
+  z: 50\x0a        \
+anchors.horizont\
+alCenter: parent\
+.horizontalCente\
+r\x0a        y: 16 \
++ backend.topIns\
+et\x0a        heigh\
+t: 46; width: Ma\
+th.min(toastRow.\
+width + 36, win.\
+width - 32); rad\
+ius: 23\x0a        \
+color: Theme.sur\
+faceHi; border.w\
+idth: 1; border.\
+color: Theme.acc\
+entHi\x0a        Be\
+havior on opacit\
+y { NumberAnimat\
+ion { duration: \
+220 } }\x0a        \
+Row {\x0a          \
+  id: toastRow\x0a \
+           ancho\
+rs.centerIn: par\
+ent; spacing: 10\
+\x0a            Gly\
+ph { name: \x22bell\
+\x22; size: 18; col\
+or: Theme.warnin\
+g; anchors.verti\
+calCenter: paren\
+t.verticalCenter\
+ }\x0a            T\
+ext { id: toastT\
+ext; color: \x22#FF\
+FFFF\x22; font.pixe\
+lSize: 14; font.\
+weight: Font.Dem\
+iBold; anchors.v\
+erticalCenter: p\
+arent.verticalCe\
+nter }\x0a        }\
+\x0a        Timer {\
+ id: toastTimer;\
+ interval: 4000;\
+ onTriggered: to\
+ast.opacity = 0 \
+}\x0a    }\x0a\x0a    // \
+================\
+================\
+================\
+====== DELETE CO\
+NFIRM\x0a    Popup \
+{\x0a        id: de\
+lConfirm\x0a       \
+ property int ti\
+d: -1\x0a        pa\
+rent: Overlay.ov\
+erlay\x0a        mo\
+dal: true\x0a      \
+  anchors.center\
+In: Overlay.over\
+lay\x0a        widt\
+h: Math.min(win.\
+width - 48, 340)\
+\x0a        padding\
+: 22\x0a        Ove\
+rlay.modal: Rect\
+angle { color: \x22\
+#CC05070D\x22 }\x0a   \
+     background:\
+ Rectangle { col\
+or: Theme.surfac\
+e; radius: 24; b\
+order.width: 1; \
+border.color: Th\
+eme.border }\x0a   \
+     contentItem\
+: Column {\x0a     \
+       spacing: \
+14\x0a            T\
+ext { text: \x22Del\
+ete this task?\x22;\
+ color: \x22#FFFFFF\
+\x22; font.pixelSiz\
+e: 19; font.weig\
+ht: Font.Bold }\x0a\
+            Text\
+ {\x0a             \
+   width: parent\
+.width; wrapMode\
+: Text.WordWrap\x0a\
+                \
+text: \x22It will b\
+e removed from a\
+ll days. This ca\
+n't be undone.\x22\x0a\
+                \
+color: Theme.tex\
+tSecondary; font\
+.pixelSize: 14\x0a \
+           }\x0a   \
+         Item { \
+width: 1; height\
+: 4 }\x0a          \
+  Row {\x0a        \
+        spacing:\
+ 12; width: pare\
+nt.width\x0a       \
+         AppButt\
+on { width: (par\
+ent.width - 12) \
+/ 2; text: \x22Canc\
+el\x22; kind: \x22seco\
+ndary\x22; onClicke\
+d: delConfirm.cl\
+ose() }\x0a        \
+        AppButto\
+n { width: (pare\
+nt.width - 12) /\
+ 2; text: \x22Delet\
+e\x22; kind: \x22dange\
+r\x22; onClicked: {\
+ backend.deleteT\
+ask(delConfirm.t\
+id); delConfirm.\
+close() } }\x0a    \
+        }\x0a      \
+  }\x0a    }\x0a\x0a    /\
+/ ==============\
+================\
+================\
+======== ADD TAS\
+K SHEET\x0a    Popu\
+p {\x0a        id: \
+addPopup\x0a       \
+ objectName: \x22ad\
+dPopup\x22\x0a        \
+parent: Overlay.\
+overlay\x0a        \
+modal: true\x0a    \
+    focus: true\x0a\
+        padding:\
+ 0\x0a        prope\
+rty string kind:\
+ \x22daily\x22\x0a       \
+ property int pr\
+io: 2\x0a        pr\
+operty bool useT\
+ime: true\x0a      \
+  readonly prope\
+rty real kb: Mat\
+h.min(Qt.inputMe\
+thod.visible ? Q\
+t.inputMethod.ke\
+yboardRectangle.\
+height : 0, win.\
+height * 0.5)\x0a\x0a \
+       width: Ma\
+th.min(win.width\
+ - 24, 540)\x0a    \
+    height: Math\
+.min(sheetCol.he\
+ight + 44, win.h\
+eight - 24 - kb \
+- backend.topIns\
+et)\x0a        x: (\
+win.width - widt\
+h) / 2\x0a        y\
+: win.height - h\
+eight - 12 - kb\x0a\
+        Behavior\
+ on y { NumberAn\
+imation { durati\
+on: 160 } }\x0a\x0a   \
+     Overlay.mod\
+al: Rectangle { \
+color: \x22#CC05070\
+D\x22 }\x0a        ent\
+er: Transition {\
+ NumberAnimation\
+ { property: \x22op\
+acity\x22; from: 0;\
+ to: 1; duration\
+: 140 } }\x0a      \
+  exit: Transiti\
+on { NumberAnima\
+tion { property:\
+ \x22opacity\x22; from\
+: 1; to: 0; dura\
+tion: 100 } }\x0a  \
+      background\
+: Rectangle { co\
+lor: Theme.surfa\
+ce; radius: 26; \
+border.width: 1;\
+ border.color: T\
+heme.border }\x0a\x0a \
+       function \
+resetForm() {\x0a  \
+          titleF\
+ield.text = \x22\x22; \
+notesField.text \
+= \x22\x22\x0a           \
+ titleField.inva\
+lid = false; err\
+Txt.text = \x22\x22\x0a  \
+          kind =\
+ \x22daily\x22; prio =\
+ 2; useTime = tr\
+ue\x0a            h\
+ourStep.value = \
+9; minStep.value\
+ = 0\x0a           \
+ dateField.text \
+= win.selectedDa\
+y\x0a            va\
+r idx = (new Dat\
+e().getDay() + 6\
+) % 7\x0a          \
+  for (var i = 0\
+; i < 7; i++) da\
+yRep.itemAt(i).o\
+n = (i === idx)\x0a\
+            flic\
+k.contentY = 0\x0a \
+       }\x0a       \
+ onAboutToShow: \
+resetForm()\x0a\x0a   \
+     contentItem\
+: Flickable {\x0a  \
+          id: fl\
+ick\x0a            \
+clip: true\x0a     \
+       contentHe\
+ight: sheetCol.h\
+eight + 44\x0a     \
+       boundsBeh\
+avior: Flickable\
+.StopAtBounds\x0a  \
+          intera\
+ctive: contentHe\
+ight > height\x0a\x0a \
+           Colum\
+n {\x0a            \
+    id: sheetCol\
+\x0a               \
+ x: 22; y: 22\x0a  \
+              wi\
+dth: flick.width\
+ - 44\x0a          \
+      spacing: 1\
+8\x0a\x0a             \
+   Item {\x0a      \
+              wi\
+dth: parent.widt\
+h; height: 34\x0a  \
+                \
+  Text { anchors\
+.verticalCenter:\
+ parent.vertical\
+Center; text: \x22N\
+ew task\x22; color:\
+ \x22#FFFFFF\x22; font\
+.pixelSize: 23; \
+font.weight: Fon\
+t.Bold }\x0a       \
+             Rec\
+tangle {\x0a       \
+                \
+ anchors.right: \
+parent.right; an\
+chors.verticalCe\
+nter: parent.ver\
+ticalCenter\x0a    \
+                \
+    width: 36; h\
+eight: 36; radiu\
+s: 18; color: Th\
+eme.field\x0a      \
+                \
+  Glyph { anchor\
+s.centerIn: pare\
+nt; name: \x22close\
+\x22; size: 16; col\
+or: \x22#FFFFFF\x22 }\x0a\
+                \
+        MouseAre\
+a { anchors.fill\
+: parent; onClic\
+ked: addPopup.cl\
+ose() }\x0a        \
+            }\x0a  \
+              }\x0a\
+\x0a               \
+ AppField { id: \
+titleField; widt\
+h: parent.width;\
+ label: \x22Title\x22;\
+ placeholder: \x22e\
+.g. Morning work\
+out\x22 }\x0a         \
+       AppField \
+{ id: notesField\
+; width: parent.\
+width; label: \x22N\
+otes (optional)\x22\
+; placeholder: \x22\
+Add a short note\
+\x22 }\x0a\x0a           \
+     Column {\x0a  \
+                \
+  width: parent.\
+width; spacing: \
+8\x0a              \
+      SectionLab\
+el { text: \x22Repe\
+at\x22 }\x0a          \
+          Segmen\
+ted {\x0a          \
+              wi\
+dth: parent.widt\
+h\x0a              \
+          value:\
+ addPopup.kind\x0a \
+                \
+       options: \
+[{value: \x22daily\x22\
+, label: \x22Daily\x22\
+}, {value: \x22week\
+ly\x22, label: \x22Wee\
+kly\x22}, {value: \x22\
+once\x22, label: \x22O\
+ne-time\x22}]\x0a     \
+                \
+   onPicked: fun\
+ction (v) { addP\
+opup.kind = v }\x0a\
+                \
+    }\x0a          \
+      }\x0a\x0a       \
+         Column \
+{\x0a              \
+      visible: a\
+ddPopup.kind ===\
+ \x22weekly\x22\x0a      \
+              wi\
+dth: parent.widt\
+h; spacing: 8\x0a  \
+                \
+  SectionLabel {\
+ text: \x22On these\
+ days\x22 }\x0a       \
+             Row\
+ {\x0a             \
+           spaci\
+ng: 8\x0a          \
+              Re\
+peater {\x0a       \
+                \
+     id: dayRep\x0a\
+                \
+            mode\
+l: [\x22Mon\x22, \x22Tue\x22\
+, \x22Wed\x22, \x22Thu\x22, \
+\x22Fri\x22, \x22Sat\x22, \x22S\
+un\x22]\x0a           \
+                \
+ Rectangle {\x0a   \
+                \
+             pro\
+perty bool on: f\
+alse\x0a           \
+                \
+     width: (she\
+etCol.width - 6 \
+* 8) / 7; height\
+: 46; radius: 14\
+\x0a               \
+                \
+ color: on ? The\
+me.accent : Them\
+e.field\x0a        \
+                \
+        border.w\
+idth: 1; border.\
+color: on ? Them\
+e.accentHi : The\
+me.border\x0a      \
+                \
+          Text {\
+ anchors.centerI\
+n: parent; text:\
+ modelData.charA\
+t(0); color: par\
+ent.on ? \x22#FFFFF\
+F\x22 : Theme.textS\
+econdary; font.p\
+ixelSize: 15; fo\
+nt.weight: Font.\
+Bold }\x0a         \
+                \
+       MouseArea\
+ { anchors.fill:\
+ parent; onClick\
+ed: parent.on = \
+!parent.on }\x0a   \
+                \
+         }\x0a     \
+                \
+   }\x0a           \
+         }\x0a     \
+           }\x0a\x0a  \
+              Co\
+lumn {\x0a         \
+           visib\
+le: addPopup.kin\
+d === \x22once\x22\x0a   \
+                \
+ width: parent.w\
+idth; spacing: 1\
+0\x0a              \
+      AppField {\
+ id: dateField; \
+width: parent.wi\
+dth; label: \x22Dat\
+e\x22; placeholder:\
+ \x22YYYY-MM-DD\x22 }\x0a\
+                \
+    Row {\x0a      \
+                \
+  spacing: 8\x0a   \
+                \
+     Repeater {\x0a\
+                \
+            mode\
+l: [{t: \x22Today\x22,\
+ o: 0}, {t: \x22Tom\
+orrow\x22, o: 1}]\x0a \
+                \
+           Recta\
+ngle {\x0a         \
+                \
+       height: 3\
+6; width: chipT.\
+width + 28; radi\
+us: 18\x0a         \
+                \
+       color: Th\
+eme.field; borde\
+r.width: 1; bord\
+er.color: Theme.\
+border\x0a         \
+                \
+       Text { id\
+: chipT; anchors\
+.centerIn: paren\
+t; text: modelDa\
+ta.t; color: \x22#F\
+FFFFF\x22; font.pix\
+elSize: 13; font\
+.weight: Font.De\
+miBold }\x0a       \
+                \
+         MouseAr\
+ea { anchors.fil\
+l: parent; onCli\
+cked: dateField.\
+text = win.isoDa\
+te(modelData.o) \
+}\x0a              \
+              }\x0a\
+                \
+        }\x0a      \
+              }\x0a\
+                \
+}\x0a\x0a             \
+   Rectangle {\x0a \
+                \
+   width: parent\
+.width\x0a         \
+           heigh\
+t: timeCol.heigh\
+t + 36\x0a         \
+           radiu\
+s: 18\x0a          \
+          color:\
+ Theme.field; bo\
+rder.width: 1; b\
+order.color: The\
+me.border\x0a      \
+              Co\
+lumn {\x0a         \
+               i\
+d: timeCol\x0a     \
+                \
+   x: 18; y: 18;\
+ width: parent.w\
+idth - 36\x0a      \
+                \
+  spacing: 14\x0a  \
+                \
+      Item {\x0a   \
+                \
+         width: \
+parent.width; he\
+ight: 38\x0a       \
+                \
+     Column {\x0a  \
+                \
+              an\
+chors.verticalCe\
+nter: parent.ver\
+ticalCenter; spa\
+cing: 2\x0a        \
+                \
+        Text { t\
+ext: \x22Reminder t\
+ime\x22; color: \x22#F\
+FFFFF\x22; font.pix\
+elSize: 16; font\
+.weight: Font.De\
+miBold }\x0a       \
+                \
+         Text { \
+text: addPopup.u\
+seTime ? \x22You'll\
+ be notified at \
+this time\x22 : \x22No\
+ time \xe2\x80\x94 shows \
+as Anytime\x22; col\
+or: Theme.textSe\
+condary; font.pi\
+xelSize: 12 }\x0a  \
+                \
+          }\x0a    \
+                \
+        Toggle {\
+ anchors.right: \
+parent.right; an\
+chors.verticalCe\
+nter: parent.ver\
+ticalCenter; che\
+cked: addPopup.u\
+seTime; onToggle\
+d: function (v) \
+{ addPopup.useTi\
+me = v } }\x0a     \
+                \
+   }\x0a           \
+             Row\
+ {\x0a             \
+               v\
+isible: addPopup\
+.useTime\x0a       \
+                \
+     anchors.hor\
+izontalCenter: p\
+arent.horizontal\
+Center\x0a         \
+                \
+   spacing: 4\x0a  \
+                \
+          Steppe\
+r { id: hourStep\
+; from: 0; to: 2\
+3; value: 9 }\x0a  \
+                \
+          Text {\
+ text: \x22:\x22; colo\
+r: \x22#FFFFFF\x22; fo\
+nt.pixelSize: 30\
+; font.weight: F\
+ont.Bold; anchor\
+s.verticalCenter\
+: parent.vertica\
+lCenter }\x0a      \
+                \
+      Stepper { \
+id: minStep; fro\
+m: 0; to: 59; va\
+lue: 0 }\x0a       \
+                \
+ }\x0a             \
+           Flow \
+{\x0a              \
+              vi\
+sible: addPopup.\
+useTime\x0a        \
+                \
+    width: paren\
+t.width; spacing\
+: 8\x0a            \
+                \
+Repeater {\x0a     \
+                \
+           model\
+: [{t: \x22Morning\x22\
+, h: 8}, {t: \x22No\
+on\x22, h: 12}, {t:\
+ \x22Evening\x22, h: 1\
+8}, {t: \x22Night\x22,\
+ h: 21}]\x0a       \
+                \
+         Rectang\
+le {\x0a           \
+                \
+         height:\
+ 34; width: qt.w\
+idth + 24; radiu\
+s: 17\x0a          \
+                \
+          color:\
+ Theme.surfaceHi\
+; border.width: \
+1; border.color:\
+ Theme.border\x0a  \
+                \
+                \
+  Text { id: qt;\
+ anchors.centerI\
+n: parent; text:\
+ modelData.t + \x22\
+ \x22 + modelData.h\
+ + \x22:00\x22; color:\
+ \x22#FFFFFF\x22; font\
+.pixelSize: 12; \
+font.weight: Fon\
+t.DemiBold }\x0a   \
+                \
+                \
+ MouseArea { anc\
+hors.fill: paren\
+t; onClicked: { \
+hourStep.value =\
+ modelData.h; mi\
+nStep.value = 0 \
+} }\x0a            \
+                \
+    }\x0a          \
+                \
+  }\x0a            \
+            }\x0a  \
+                \
+  }\x0a            \
+    }\x0a\x0a         \
+       Column {\x0a\
+                \
+    width: paren\
+t.width; spacing\
+: 8\x0a            \
+        SectionL\
+abel { text: \x22Im\
+portance\x22 }\x0a    \
+                \
+Segmented {\x0a    \
+                \
+    width: paren\
+t.width\x0a        \
+                \
+value: addPopup.\
+prio\x0a           \
+             opt\
+ions: [{value: 1\
+, label: \x22Low\x22, \
+color: Theme.suc\
+cess}, {value: 2\
+, label: \x22Normal\
+\x22, color: Theme.\
+warning}, {value\
+: 3, label: \x22Hig\
+h\x22, color: Theme\
+.danger}]\x0a      \
+                \
+  onPicked: func\
+tion (v) { addPo\
+pup.prio = v }\x0a \
+                \
+   }\x0a           \
+     }\x0a\x0a        \
+        Text { i\
+d: errTxt; width\
+: parent.width; \
+wrapMode: Text.W\
+ordWrap; visible\
+: text !== \x22\x22; c\
+olor: Theme.dang\
+er; font.pixelSi\
+ze: 14; font.wei\
+ght: Font.DemiBo\
+ld }\x0a\x0a          \
+      Row {\x0a    \
+                \
+width: parent.wi\
+dth; spacing: 12\
+\x0a               \
+     AppButton {\
+ width: (parent.\
+width - 12) * 0.\
+36; text: \x22Cance\
+l\x22; kind: \x22secon\
+dary\x22; onClicked\
+: addPopup.close\
+() }\x0a           \
+         AppButt\
+on {\x0a           \
+             wid\
+th: (parent.widt\
+h - 12) * 0.64\x0a \
+                \
+       text: \x22Ad\
+d task\x22; iconNam\
+e: \x22plus\x22\x0a      \
+                \
+  onClicked: {\x0a \
+                \
+           if (t\
+itleField.text.t\
+rim() === \x22\x22) { \
+titleField.inval\
+id = true; errTx\
+t.text = \x22Please\
+ enter a title.\x22\
+; return }\x0a     \
+                \
+       var days \
+= []\x0a           \
+                \
+ for (var i = 0;\
+ i < 7; i++) if \
+(dayRep.itemAt(i\
+).on) days.push(\
+i)\x0a             \
+               v\
+ar tm = addPopup\
+.useTime ? (\x220\x22 \
++ hourStep.value\
+).slice(-2) + \x22:\
+\x22 + (\x220\x22 + minSt\
+ep.value).slice(\
+-2) : \x22\x22\x0a       \
+                \
+     var err = b\
+ackend.addTask(t\
+itleField.text, \
+notesField.text,\
+ addPopup.kind,\x0a\
+                \
+                \
+                \
+      days.join(\
+\x22,\x22), dateField.\
+text, tm, addPop\
+up.prio)\x0a       \
+                \
+     if (err ===\
+ \x22\x22) addPopup.cl\
+ose(); else errT\
+xt.text = err\x0a  \
+                \
+      }\x0a        \
+            }\x0a  \
+              }\x0a\
+            }\x0a  \
+      }\x0a    }\x0a\x0a \
+   Confetti { id\
+: confetti }\x0a}\x0a\
 "
 
 qt_resource_name = b"\
@@ -3227,29 +5474,29 @@ qt_resource_struct = b"\
 \x00\x00\x00\x00\x00\x00\x00\x00\
 \x00\x00\x00\x0c\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\
 \x00\x00\x01\xa1X-\xedi\
-\x00\x00\x00H\x00\x04\x00\x00\x00\x01\x00\x00t{\
+\x00\x00\x00H\x00\x00\x00\x00\x00\x01\x00\x00t{\
 \x00\x00\x01\xa1X,\x9c\x0d\
-\x00\x00\x01*\x00\x00\x00\x00\x00\x01\x00\x00\x97\xdd\
+\x00\x00\x01*\x00\x00\x00\x00\x00\x01\x00\x00\xa1s\
 \x00\x00\x01\xa1X/\x11\xf0\
-\x00\x00\x01H\x00\x04\x00\x00\x00\x01\x00\x00\xa3\x85\
+\x00\x00\x01H\x00\x00\x00\x00\x00\x01\x00\x00\xad\x1b\
 \x00\x00\x01\xa1X,\x9c\x19\
-\x00\x00\x01\x0c\x00\x00\x00\x00\x00\x01\x00\x00\x93\x90\
+\x00\x00\x01\x0c\x00\x00\x00\x00\x00\x01\x00\x00\x9d&\
 \x00\x00\x01\xa1X,\x9c\x13\
-\x00\x00\x00\x9a\x00\x00\x00\x00\x00\x01\x00\x00~Z\
+\x00\x00\x00\x9a\x00\x00\x00\x00\x00\x01\x00\x00\x87\xf0\
 \x00\x00\x01\xa1X.M\xd0\
-\x00\x00\x00\xb6\x00\x00\x00\x00\x00\x01\x00\x00\x86\xfc\
+\x00\x00\x00\xb6\x00\x00\x00\x00\x00\x01\x00\x00\x90\x92\
 \x00\x00\x01\xa1X.\x8cx\
-\x00\x00\x01f\x00\x00\x00\x00\x00\x01\x00\x00\xa7\xe6\
+\x00\x00\x01f\x00\x00\x00\x00\x00\x01\x00\x00\xbc\xd8\
 \x00\x00\x01\xa1X,\x9c\x09\
-\x00\x00\x01x\x00\x04\x00\x00\x00\x01\x00\x00\xa9\x0c\
+\x00\x00\x01x\x00\x00\x00\x00\x00\x01\x00\x00\xbd\xfe\
 \x00\x00\x01\xa1X.\x8cx\
-\x00\x00\x00\xd4\x00\x00\x00\x00\x00\x01\x00\x00\x89\xce\
+\x00\x00\x00\xd4\x00\x00\x00\x00\x00\x01\x00\x00\x93d\
 \x00\x00\x01\xa1X,\x9c\x14\
-\x00\x00\x00`\x00\x00\x00\x00\x00\x01\x00\x00w\xcb\
+\x00\x00\x00`\x00\x00\x00\x00\x00\x01\x00\x00\x81a\
 \x00\x00\x01\xa1X,\x9c\x11\
-\x00\x00\x00\xf4\x00\x00\x00\x00\x00\x01\x00\x00\x8e\xe9\
+\x00\x00\x00\xf4\x00\x00\x00\x00\x00\x01\x00\x00\x98\x7f\
 \x00\x00\x01\xa1X,\x9c\x0d\
-\x00\x00\x00\x80\x00\x00\x00\x00\x00\x01\x00\x00|\x19\
+\x00\x00\x00\x80\x00\x00\x00\x00\x00\x01\x00\x00\x85\xaf\
 \x00\x00\x01\xa1X,\x9c\x15\
 \x00\x00\x00\x22\x00\x00\x00\x00\x00\x01\x00\x00s\xc6\
 \x00\x00\x01\xa1X,\x9c\x10\

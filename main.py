@@ -3,7 +3,7 @@ import traceback
 from datetime import date, datetime
 from pathlib import Path
 
-from PySide6.QtCore import Property, QObject, QStandardPaths, QTimer, QUrl, Signal, Slot
+from PySide6.QtCore import Property, QFile, QObject, QStandardPaths, QTimer, QUrl, Signal, Slot
 from PySide6.QtGui import QGuiApplication, QIcon
 from PySide6.QtQml import QQmlApplicationEngine
 
@@ -191,9 +191,22 @@ def main():
         messages = []
         engine.warnings.connect(lambda ws: messages.extend(w.toString() for w in ws))
         engine.rootContext().setContextProperty("backend", backend)
-        engine.load(QML_URL)
+
+        # 1) screens bundled in the app (qrc), 2) fall back to loose files next to main.py
+        candidates = [QML_URL]
+        loose = QUrl.fromLocalFile(str(Path(__file__).parent / "qml" / "main.qml"))
+        if loose != QML_URL:
+            candidates.append(loose)
+        for url in candidates:
+            engine.load(url)
+            if engine.rootObjects():
+                break
+            messages.append(f"-- could not load {url.toString()}")
         if not engine.rootObjects():
-            raise RuntimeError("The screens failed to load:\n" + "\n".join(messages[:12]))
+            f = QFile(":/qml/main.qml")
+            diag = (f"qrc exists={f.exists()} size={f.size()}; "
+                    f"loose qml dir exists={(Path(__file__).parent / 'qml').exists()}")
+            raise RuntimeError("The screens failed to load:\n" + diag + "\n" + "\n".join(messages[:12]))
 
         # Keep content clear of the Android status bar / gesture bar.
         win = engine.rootObjects()[0]

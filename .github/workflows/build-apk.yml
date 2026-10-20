@@ -48,7 +48,7 @@ jobs:
           ls -la wheels
 
       - name: Compile UI resources
-        run: pyside6-rcc resources.qrc -o rc_resources.py
+        run: pyside6-rcc --no-compress resources.qrc -o rc_resources.py
 
       - name: Build APK
         run: |
