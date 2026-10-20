@@ -47,6 +47,11 @@ jobs:
           done
           ls -la wheels
 
+      - name: Validate Python and database tests
+        run: |
+          python -m compileall -q main.py db.py notifier.py tests
+          python -m unittest discover -s tests -v
+
       - name: Compile UI resources
         run: pyside6-rcc resources.qrc -o rc_resources.py
 
