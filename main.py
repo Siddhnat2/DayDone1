@@ -7,25 +7,24 @@ from PySide6.QtCore import Property, QObject, QStandardPaths, QTimer, QUrl, Sign
 from PySide6.QtGui import QGuiApplication, QIcon
 from PySide6.QtQml import QQmlApplicationEngine
 
-from db import Database
-import notifier
+_import_error = None
+try:
+    from db import Database
+    import notifier
+except Exception:                      # e.g. sqlite3 missing in an Android build
+    _import_error = traceback.format_exc()
+    Database = None
+    notifier = None
 
 # UI files are compiled into rc_resources.py (pyside6-rcc resources.qrc -o rc_resources.py)
 # so they ship inside the app on Android. Falls back to loose files when running from source.
-
-IS_ANDROID = sys.platform == "android" or hasattr(sys, "getandroidapilevel")
-
-if IS_ANDROID:
-    import rc_resources  # Register compiled resources in the APK
+try:
+    import rc_resources  # noqa: F401
     QML_URL = QUrl("qrc:/qml/main.qml")
     ICON_PATH = ":/icon.png"
-else:
-    # Use source files on desktop to isolate resource-loading problems
-    QML_URL = QUrl.fromLocalFile(
-        str(Path(__file__).parent / "qml" / "main.qml")
-    )
+except ImportError:
+    QML_URL = QUrl.fromLocalFile(str(Path(__file__).parent / "qml" / "main.qml"))
     ICON_PATH = str(Path(__file__).parent / "icon.png")
-
 
 PRIORITY = {1: "Low", 2: "Normal", 3: "High"}
 
@@ -145,82 +144,76 @@ class Backend(QObject):
                 self.toast.emit(f"Due now: {t['title']}")
 
 
-def _diagnostic_log_path():
-    """Return a writable, app-private location for startup diagnostics."""
-    for location in (QStandardPaths.writableLocation(QStandardPaths.AppLocalDataLocation),
-                     QStandardPaths.writableLocation(QStandardPaths.AppDataLocation),
-                     str(Path.home() / ".daydone")):
-        if location:
-            try:
-                folder = Path(location)
-                folder.mkdir(parents=True, exist_ok=True)
-                probe = folder / ".write_test"
-                probe.write_text("ok", encoding="utf-8")
-                probe.unlink(missing_ok=True)
-                return folder / "daydone-startup.log"
-            except (OSError, RuntimeError):
-                continue
-    return None
+ERROR_QML = b"""
+import QtQuick
+Window {
+    visible: true; width: 400; height: 800; color: "#0B0F1A"; title: "DayDone"
+    Flickable {
+        anchors.fill: parent; anchors.margins: 18
+        contentHeight: col.height + 40; clip: true
+        Column {
+            id: col; width: parent.width; spacing: 14; y: 30
+            Text { width: parent.width; wrapMode: Text.WordWrap; color: "#FFFFFF"; font.pixelSize: 24; font.bold: true
+                   text: "DayDone could not start" }
+            Text { width: parent.width; wrapMode: Text.WordWrap; color: "#C9D1EE"; font.pixelSize: 15
+                   text: "Please take a screenshot of this screen and send it to the developer." }
+            Text { width: parent.width; wrapMode: Text.WrapAnywhere; color: "#FF9AA8"; font.pixelSize: 11
+                   font.family: "monospace"; text: errorText }
+        }
+    }
+}
+"""
+
+
+def run_error_screen(app, text):
+    engine = QQmlApplicationEngine()
+    engine.rootContext().setContextProperty("errorText", text)
+    engine.loadData(ERROR_QML)
+    return app.exec()
 
 
 def main():
     app = QGuiApplication(sys.argv)
     app.setApplicationName("DayDone")
-    app.setOrganizationName("DayDone")
+    app.setWindowIcon(QIcon(ICON_PATH))
+    data_dir = Path(QStandardPaths.writableLocation(QStandardPaths.AppDataLocation))
     try:
-        app.setWindowIcon(QIcon(ICON_PATH))
+        data_dir.mkdir(parents=True, exist_ok=True)
     except Exception:
         pass
 
-    log_path = _diagnostic_log_path()
-    def log(message):
-        line = f"[{datetime.now().isoformat(timespec='seconds')}] {message}"
-        print(line, file=sys.stderr, flush=True)
-        if log_path:
-            try:
-                with log_path.open("a", encoding="utf-8") as f:
-                    f.write(line + "\n")
-            except OSError:
-                pass
-
-    def exception_hook(exc_type, exc_value, exc_tb):
-        log("UNHANDLED PYTHON EXCEPTION\n" + "".join(
-            traceback.format_exception(exc_type, exc_value, exc_tb)))
-    sys.excepthook = exception_hook
-
     try:
-        data_location = QStandardPaths.writableLocation(QStandardPaths.AppDataLocation)
-        if not data_location:
-            data_location = str(Path.home() / ".daydone")
-        data_dir = Path(data_location)
-        data_dir.mkdir(parents=True, exist_ok=True)
-        log(f"Starting DayDone; platform={sys.platform}; Qt={__import__('PySide6').__version__}")
-        log(f"QML URL: {QML_URL.toString()}; database: {data_dir / 'daydone.db'}")
+        if _import_error:
+            raise RuntimeError("Import failed:\n" + _import_error)
         backend = Backend(str(data_dir / "daydone.db"))
 
         engine = QQmlApplicationEngine()
-        engine.warnings.connect(lambda warnings: [log("QML warning: " + w.toString()) for w in warnings])
+        messages = []
+        engine.warnings.connect(lambda ws: messages.extend(w.toString() for w in ws))
         engine.rootContext().setContextProperty("backend", backend)
         engine.load(QML_URL)
         if not engine.rootObjects():
-            log("FATAL: QML engine produced no root objects; check QML warnings above.")
-            return 2
+            raise RuntimeError("The screens failed to load:\n" + "\n".join(messages[:12]))
 
+        # Keep content clear of the Android status bar / gesture bar.
         win = engine.rootObjects()[0]
         try:
-            m = win.safeAreaMargins()
+            m = win.safeAreaMargins()                  # Qt >= 6.9
             backend.set_insets(m.top(), m.bottom())
             win.safeAreaMarginsChanged.connect(
                 lambda: backend.set_insets(win.safeAreaMargins().top(), win.safeAreaMargins().bottom()))
-        except Exception as exc:
-            log(f"Safe-area API unavailable: {exc}")
+        except Exception:
             if sys.platform == "android" or hasattr(sys, "getandroidapilevel"):
-                backend.set_insets(28, 12)
-        log("QML root loaded successfully")
-        return app.exec()
+                backend.set_insets(28, 12)             # sensible default on older Qt
     except Exception:
-        log("FATAL STARTUP ERROR\n" + traceback.format_exc())
-        return 1
+        text = f"Python {sys.version.split()[0]} on {sys.platform}\n\n" + traceback.format_exc()
+        try:
+            (data_dir / "last_error.txt").write_text(text)
+        except Exception:
+            pass
+        sys.exit(run_error_screen(app, text))
+
+    sys.exit(app.exec())
 
 
 if __name__ == "__main__":

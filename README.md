@@ -25,11 +25,3 @@ Known limitation
 Reminders are checked every 30 s by an in-app timer, so they fire while the app process is
 running. For guaranteed delivery after the app is swiped away, add an Android AlarmManager
 (+ BroadcastReceiver in Java, bundled via the Android deploy `jar`/`aar` options).
-
-
-## Android launch troubleshooting
-
-Startup diagnostics are written to `daydone-startup.log` in the app-specific data directory. The
-app logs QML engine warnings and Python startup exceptions to help diagnose launch crashes or blank
-screens. See `ANDROID_TROUBLESHOOTING.md`. The GitHub Actions workflow runs Python syntax checks
-and database regression tests before attempting the APK build.
