@@ -33,7 +33,7 @@ The GitHub Actions workflow is the preferred route because PySide6 Android deplo
 4. Download the **DayDone-apk** artifact and extract the APK.
 5. If the job fails, download **build-diagnostics** and inspect `build.log`.
 
-The workflow downloads Android wheels matching the installed PySide6 version, compiles `resources.qrc`, runs the custom wrapper, and checks that an APK was actually created.
+The workflow pins PySide6 to 6.8.3 (instead of installing the latest version, which may not have a published Android-wheel directory) and downloads matching Android wheels, compiles `resources.qrc`, runs the custom wrapper, and checks that an APK was actually created.
 
 ## 3. Install and verify on the phone
 

@@ -30,7 +30,8 @@ jobs:
       - name: Install PySide6 + deploy tool
         run: |
           python -m pip install --upgrade pip
-          pip install PySide6
+          # Pin to a Qt-for-Python release with published Android wheels.
+          pip install "PySide6==6.8.3"
           python -c "import PySide6; print('PySide6', PySide6.__version__)"
           REQ=$(python -c "import PySide6,os;print(os.path.join(os.path.dirname(PySide6.__file__),'scripts','requirements-android.txt'))")
           test -f "$REQ"
@@ -40,6 +41,7 @@ jobs:
         run: |
           set -euo pipefail
           VER=$(python -c "import PySide6; print(PySide6.__version__)")
+          test "$VER" = "6.8.3" || { echo "Unexpected PySide6 version: $VER"; exit 1; }
           echo "PySide6 $VER"
           BASE="https://download.qt.io/official_releases/QtForPython"
           mkdir -p wheels
