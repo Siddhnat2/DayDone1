@@ -52,3 +52,7 @@ The exact package name may differ depending on the generated `pysidedeploy.spec`
 ## Known limitation
 
 Reminders are checked by an in-app timer every 30 seconds. They are not guaranteed after Android force-stops the app or kills its process. Reliable delivery while fully closed requires native scheduled alarms/receivers. Also, a successful source test or CI build is not a substitute for testing the APK on a physical Android device.
+
+
+### Fix for Android deploy startup error
+The CI workflow explicitly installs `packaging`, a dependency imported by PySide6 6.8.3's Android deployment helper but not installed by the helper's requirements file in this environment. The workflow checks this import before attempting the APK build.

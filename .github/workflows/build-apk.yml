@@ -36,6 +36,10 @@ jobs:
           REQ=$(python -c "import PySide6,os;print(os.path.join(os.path.dirname(PySide6.__file__),'scripts','requirements-android.txt'))")
           test -f "$REQ"
           pip install -r "$REQ"
+          # PySide6 6.8.3's deploy_lib imports packaging, but its Android
+          # requirements file does not install it on every resolver version.
+          pip install "packaging>=23.2"
+          python -c "from packaging import version; print('packaging', version.__version__ if hasattr(version, '__version__') else 'available')"
 
       - name: Download Qt for Python Android wheels (matching version)
         run: |
