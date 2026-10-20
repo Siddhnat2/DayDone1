@@ -1,0 +1,11 @@
+singleton Theme 1.0 Theme.qml
+Glyph 1.0 Glyph.qml
+AppButton 1.0 AppButton.qml
+AppField 1.0 AppField.qml
+Segmented 1.0 Segmented.qml
+Stepper 1.0 Stepper.qml
+Toggle 1.0 Toggle.qml
+SectionLabel 1.0 SectionLabel.qml
+TaskCard 1.0 TaskCard.qml
+StatTile 1.0 StatTile.qml
+Confetti 1.0 Confetti.qml

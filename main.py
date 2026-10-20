@@ -1,0 +1,160 @@
+import sys
+from datetime import date, datetime
+from pathlib import Path
+
+from PySide6.QtCore import Property, QObject, QStandardPaths, QTimer, QUrl, Signal, Slot
+from PySide6.QtGui import QGuiApplication, QIcon
+from PySide6.QtQml import QQmlApplicationEngine
+
+from db import Database
+import notifier
+
+PRIORITY = {1: "Low", 2: "Normal", 3: "High"}
+
+
+class Backend(QObject):
+    changed = Signal()
+    celebrate = Signal()
+    toast = Signal(str)
+    insetsChanged = Signal()
+
+    def __init__(self, db_path):
+        super().__init__()
+        self._top = 0
+        self._bottom = 0
+        self.db = Database(db_path)
+        self.timer = QTimer(self)
+        self.timer.setInterval(30_000)           # check due tasks every 30 s
+        self.timer.timeout.connect(self.check_due)
+        self.timer.start()
+        QTimer.singleShot(2000, self.check_due)
+
+    # ---- safe-area insets (status bar / gesture bar) -------------------
+    @Property(int, notify=insetsChanged)
+    def topInset(self):
+        return self._top
+
+    @Property(int, notify=insetsChanged)
+    def bottomInset(self):
+        return self._bottom
+
+    def set_insets(self, top, bottom):
+        self._top, self._bottom = int(top), int(bottom)
+        self.insetsChanged.emit()
+
+    # ---- helpers -----------------------------------------------------
+    @staticmethod
+    def _d(s):
+        return date.fromisoformat(s)
+
+    # ---- QML API -----------------------------------------------------
+    @Slot(result=str)
+    def todayStr(self):
+        return date.today().isoformat()
+
+    @Slot(str, result="QVariantList")
+    def tasksFor(self, day):
+        return self.db.tasks_for(self._d(day))
+
+    @Slot(str, result="QVariantMap")
+    def stats(self, day):
+        return self.db.stats(self._d(day))
+
+    @Slot(str, result="QVariantList")
+    def weekStats(self, day):
+        return self.db.week_stats(self._d(day))
+
+    @Slot(result=int)
+    def streak(self):
+        return self.db.streak()
+
+    @Slot(result=bool)
+    def shouldCelebrateOnOpen(self):
+        s = self.db.stats(date.today())
+        return s["total"] > 0 and s["done"] == s["total"]
+
+    @Slot(str, str, str, str, str, str, int, result=str)
+    def addTask(self, title, notes, kind, weekdays, due_date, time, priority):
+        if not title.strip():
+            return "Please enter a task title."
+        if kind == "weekly" and not weekdays:
+            return "Pick at least one weekday."
+        if kind == "once":
+            try:
+                self._d(due_date)
+            except ValueError:
+                return "Date must look like 2026-10-25."
+        self.db.add_task(title, notes, kind, weekdays, due_date if kind == "once" else "",
+                         time, priority)
+        self.changed.emit()
+        return ""
+
+    @Slot(int, str)
+    def toggle(self, task_id, day):
+        d = self._d(day)
+        before = self.db.stats(d)
+        self.db.toggle(task_id, d)
+        after = self.db.stats(d)
+        self.changed.emit()
+        if (d == date.today() and after["total"] and after["done"] == after["total"]
+                and before["done"] != before["total"]):
+            self.celebrate.emit()
+
+    @Slot(int)
+    def deleteTask(self, task_id):
+        self.db.delete_task(task_id)
+        self.changed.emit()
+
+    # ---- reminders ---------------------------------------------------
+    @Slot()
+    def check_due(self):
+        today, now = date.today(), datetime.now().strftime("%H:%M")
+        tasks = self.db.tasks_for(today)
+        pending = [t for t in tasks if not t["done"]]
+        for t in pending:
+            if t["time"] and t["time"] <= now and not self.db.was_notified(t["id"], today):
+                others = [x for x in pending if x["id"] != t["id"]]
+                important = [x["title"] for x in others if x["priority"] == 3][:3]
+                lines = [f"{PRIORITY[t['priority']]} priority · due {t['time']}"]
+                if t["notes"]:
+                    lines.append(t["notes"])
+                lines.append(f"{len(pending)} task(s) still pending today.")
+                if important:
+                    lines.append("Important: " + ", ".join(important))
+                title = ("🔥 " if t["priority"] == 3 else "⏰ ") + t["title"]
+                notifier.notify(title, "\n".join(lines), nid=t["id"])
+                self.db.mark_notified(t["id"], today)
+                self.toast.emit(f"Due now: {t['title']}")
+
+
+def main():
+    app = QGuiApplication(sys.argv)
+    app.setApplicationName("DayDone")
+    icon = Path(__file__).parent / "icon.png"
+    if icon.exists():
+        app.setWindowIcon(QIcon(str(icon)))
+    data_dir = Path(QStandardPaths.writableLocation(QStandardPaths.AppDataLocation))
+    data_dir.mkdir(parents=True, exist_ok=True)
+    backend = Backend(str(data_dir / "daydone.db"))
+
+    engine = QQmlApplicationEngine()
+    engine.rootContext().setContextProperty("backend", backend)
+    engine.load(QUrl.fromLocalFile(str(Path(__file__).parent / "qml" / "main.qml")))
+    if not engine.rootObjects():
+        sys.exit(-1)
+
+    # Keep content clear of the Android status bar / gesture bar.
+    win = engine.rootObjects()[0]
+    try:
+        m = win.safeAreaMargins()                  # Qt >= 6.9
+        backend.set_insets(m.top(), m.bottom())
+        win.safeAreaMarginsChanged.connect(
+            lambda: backend.set_insets(win.safeAreaMargins().top(), win.safeAreaMargins().bottom()))
+    except Exception:
+        if sys.platform == "android" or hasattr(sys, "getandroidapilevel"):
+            backend.set_insets(28, 12)             # sensible default on older Qt
+    sys.exit(app.exec())
+
+
+if __name__ == "__main__":
+    main()

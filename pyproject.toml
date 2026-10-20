@@ -1,0 +1,11 @@
+[project]
+name = "daydone"
+version = "1.1.0"
+requires-python = ">=3.9"
+dependencies = ["PySide6"]
+
+[tool.pyside6-project]
+files = ["main.py", "db.py", "notifier.py", "icon.png",
+         "qml/qmldir", "qml/main.qml", "qml/Theme.qml", "qml/Glyph.qml", "qml/AppButton.qml",
+         "qml/AppField.qml", "qml/Segmented.qml", "qml/Stepper.qml", "qml/Toggle.qml",
+         "qml/SectionLabel.qml", "qml/TaskCard.qml", "qml/StatTile.qml", "qml/Confetti.qml"]

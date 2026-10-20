@@ -1,0 +1,60 @@
+name: Build Android APK
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  apk:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Install PySide6 + deploy tool
+        run: |
+          python -m pip install --upgrade pip
+          pip install PySide6
+          pip show PySide6 | grep Version
+          # extra packages required by pyside6-android-deploy
+          REQ=$(python -c "import PySide6,os;print(os.path.join(os.path.dirname(PySide6.__file__),'scripts','requirements-android.txt'))")
+          pip install -r "$REQ"
+
+      - name: Download Qt for Python Android wheels (matching version)
+        run: |
+          VER=$(python -c "import PySide6; print(PySide6.__version__)")
+          echo "PySide6 $VER"
+          BASE="https://download.qt.io/official_releases/QtForPython"
+          # find the android wheel directory/files for this version
+          for P in pyside6 shiboken6; do
+            DIR=$(curl -s "$BASE/$P/" | grep -o "href=\"[^\"]*${VER%.*}[^\"]*android[^\"]*/\?\"" | head -1 | cut -d'"' -f2 || true)
+            echo "$P dir: $DIR"
+          done
+          mkdir -p wheels && cd wheels
+          # Wheel file names follow: PySide6-<ver>-<ver>-cp311-cp311-android_aarch64.whl
+          wget -q -r -np -nd -A "*cp311*android_aarch64.whl" "$BASE/pyside6/PySide6-${VER}-${VER}-android/" || true
+          wget -q -r -np -nd -A "*cp311*android_aarch64.whl" "$BASE/shiboken6/shiboken6-${VER}-${VER}-android/" || true
+          ls -la
+          ls PySide6-*aarch64.whl shiboken6-*aarch64.whl || { echo "ERROR: Android wheels were not downloaded"; exit 1; }
+
+      - name: Build APK
+        run: |
+          PY=$(ls wheels/PySide6-*aarch64.whl | head -1)
+          SH=$(ls wheels/shiboken6-*aarch64.whl | head -1)
+          pyside6-android-deploy --name DayDone --wheel-pyside "$PY" --wheel-shiboken "$SH" --force -v
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: DayDone-apk
+          path: |
+            **/*.apk
+            **/*.aab
