@@ -12,13 +12,20 @@ import notifier
 
 # UI files are compiled into rc_resources.py (pyside6-rcc resources.qrc -o rc_resources.py)
 # so they ship inside the app on Android. Falls back to loose files when running from source.
-try:
-    import rc_resources  # noqa: F401
+
+IS_ANDROID = sys.platform == "android" or hasattr(sys, "getandroidapilevel")
+
+if IS_ANDROID:
+    import rc_resources  # Register compiled resources in the APK
     QML_URL = QUrl("qrc:/qml/main.qml")
     ICON_PATH = ":/icon.png"
-except ImportError:
-    QML_URL = QUrl.fromLocalFile(str(Path(__file__).parent / "qml" / "main.qml"))
+else:
+    # Use source files on desktop to isolate resource-loading problems
+    QML_URL = QUrl.fromLocalFile(
+        str(Path(__file__).parent / "qml" / "main.qml")
+    )
     ICON_PATH = str(Path(__file__).parent / "icon.png")
+
 
 PRIORITY = {1: "Low", 2: "Normal", 3: "High"}
 
