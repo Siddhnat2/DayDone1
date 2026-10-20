@@ -1,38 +1,54 @@
 # Building the DayDone APK
 
-## 1. Run on desktop first (works on Windows / Mac / Linux)
-    pip install -r requirements.txt
-    python main.py
+## What was fixed
+
+- **SQLite startup crash:** the Android build wrapper now places the `sqlite3` recipe before `python3`. python-for-android builds optional standard-library extensions in dependency order; placing `sqlite3` after `python3` can produce an APK where importing `sqlite3` fails at launch.
+- **QML module packaging:** `qml/imports.qml` explicitly lists the Qt Quick modules used by the interface. This helps the Android import scanner discover modules when the real UI is loaded from `rc_resources.py`.
+- **Reminder error handling:** a failed native notification is no longer recorded as delivered, and notification errors are prevented from propagating through the reminder timer.
+- **Build validation:** the GitHub Actions workflow runs Python compilation and regression tests before attempting the Android build, and fails if no APK is produced.
+
+## 1. Run source and database tests
+
+Use Python 3.11 or newer for these tests. The database tests do not require PySide6:
+
+```bash
+python -m compileall -q main.py db.py notifier.py tools tests
+python -m unittest discover -s tests -v
+```
+
+For the desktop UI, install PySide6 and run:
+
+```bash
+pip install -r requirements.txt
+python main.py
+```
 
 ## 2. Build the APK (Linux or WSL2 Ubuntu recommended)
-Requirements: Python 3.11 (exact version matters for Android wheels), JDK 17, ~10 GB disk.
 
-    python3.11 -m venv venv && source venv/bin/activate
-    pip install PySide6 android_deploy      # android_deploy ships in Qt's "pyside-setup" tools
-    pip install -r https://code.qt.io/cgit/pyside/pyside-setup.git/plain/requirements-android.txt  # if needed
+The GitHub Actions workflow is the preferred route because PySide6 Android deployment needs Linux, Java 17, Android SDK/NDK, and matching Android wheels.
 
-    # one-time: download Qt-for-Python Android wheels (shiboken6 + PySide6 for aarch64)
-    # from https://download.qt.io/official_releases/QtForPython/  (see Qt docs below)
+1. Push the `DayDone` folder contents to a GitHub repository's `main` branch.
+2. Open **Actions → Build Android APK** and run the workflow (or push a commit).
+3. Wait for the job to finish successfully.
+4. Download the **DayDone-apk** artifact and extract the APK.
+5. If the job fails, download **build-diagnostics** and inspect `build.log`.
 
-    pyside6-android-deploy --name DayDone \
-        --wheel-pyside=<path/PySide6-*-android_aarch64.whl> \
-        --wheel-shiboken=<path/shiboken6-*-android_aarch64.whl> \
-        --ndk-path=<android-ndk-r26b> --sdk-path=<android-sdk>
+The workflow downloads Android wheels matching the installed PySide6 version, compiles `resources.qrc`, runs the custom wrapper, and checks that an APK was actually created.
 
-The first run generates `pysidedeploy.spec`; the finished `.apk` is written next to it.
-Official guide: https://doc.qt.io/qtforpython-6/deployment/deployment-pyside6-android-deploy.html
+## 3. Install and verify on the phone
 
-## 3. Install on phone
-    adb install DayDone-*.apk
-(or copy the APK to the phone and allow "Install unknown apps").
+Install the APK, launch DayDone, add a daily task, mark it done, close and reopen the app, and confirm the task remains saved. Then add a task with a time a minute or two ahead and verify the reminder while the app process is alive. On Android 13+, allow notifications in **Settings → Apps → DayDone → Notifications**.
 
-## Notifications on Android 13+
-Settings → Apps → DayDone → Notifications → Allow.
-Reminders fire while the app process is alive (open or in recent apps). To get reminders
-after the app is fully closed, an AlarmManager + BroadcastReceiver (Java) is needed — see README.
+To capture a startup crash with Android Platform Tools installed, connect the phone with USB debugging enabled and run:
 
-## Easiest: build in the cloud with GitHub Actions (no local setup)
-1. Create a new GitHub repo and push this folder to its `main` branch.
-2. Open the repo → Actions → "Build Android APK" → Run workflow (it also runs on every push).
-3. When it finishes (30–60 min), download the `DayDone-apk` artifact → unzip → install the .apk.
-Workflow: .github/workflows/build-apk.yml (untested — if a step fails, copy the log to Claude).
+```bash
+adb logcat -c
+adb shell monkey -p org.daydone.daydone 1
+adb logcat -d -s AndroidRuntime Python Qt DEBUG
+```
+
+The exact package name may differ depending on the generated `pysidedeploy.spec`; check its `package` setting if the `monkey` command cannot find the app.
+
+## Known limitation
+
+Reminders are checked by an in-app timer every 30 seconds. They are not guaranteed after Android force-stops the app or kills its process. Reliable delivery while fully closed requires native scheduled alarms/receivers. Also, a successful source test or CI build is not a substitute for testing the APK on a physical Android device.

@@ -7,7 +7,7 @@ on:
 jobs:
   apk:
     runs-on: ubuntu-22.04
-    timeout-minutes: 90
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
 
@@ -20,78 +20,84 @@ jobs:
           distribution: temurin
           java-version: "17"
 
+      - name: Run source and database regression tests
+        run: |
+          python -m compileall -q main.py db.py notifier.py tools tests
+          python -m unittest discover -s tests -v
+          test -f qml/imports.qml
+          grep -q 'QtQuick.Controls.Basic' qml/imports.qml
+
       - name: Install PySide6 + deploy tool
         run: |
           python -m pip install --upgrade pip
           pip install PySide6
-          pip show PySide6 | grep Version
-          # extra packages required by pyside6-android-deploy
+          python -c "import PySide6; print('PySide6', PySide6.__version__)"
           REQ=$(python -c "import PySide6,os;print(os.path.join(os.path.dirname(PySide6.__file__),'scripts','requirements-android.txt'))")
+          test -f "$REQ"
           pip install -r "$REQ"
 
       - name: Download Qt for Python Android wheels (matching version)
         run: |
+          set -euo pipefail
           VER=$(python -c "import PySide6; print(PySide6.__version__)")
           echo "PySide6 $VER"
           BASE="https://download.qt.io/official_releases/QtForPython"
           mkdir -p wheels
           for P in pyside6 shiboken6; do
-            F=$(curl -sL "$BASE/$P/" | grep -o "href=\"[^\"]*${VER}[^\"]*android_aarch64\.whl\"" | head -1 | cut -d'"' -f2)
-            echo "$P -> $F"
+            INDEX="$BASE/$P/$VER/"
+            echo "Looking for $P Android wheel at $INDEX"
+            PAGE=$(curl --fail --silent --show-error --location "$INDEX")
+            F=$(printf '%s' "$PAGE" | grep -oE 'href="[^"]*android_aarch64\.whl"' | cut -d'"' -f2 | grep -i "$VER" | head -1 || true)
             if [ -z "$F" ]; then
-              echo "ERROR: no aarch64 Android wheel found for $P $VER. Available android files:"
-              curl -sL "$BASE/$P/" | grep -o 'href="[^"]*android[^"]*"' | head -30
+              echo "ERROR: no android_aarch64 wheel found for $P $VER in $INDEX"
+              printf '%s' "$PAGE" | grep -oE 'href="[^"]*android[^"]*"' | head -30 || true
               exit 1
             fi
-            wget -q "$BASE/$P/$F" -O "wheels/$F"
+            echo "$P -> $F"
+            wget --quiet --show-progress "$INDEX$F" -O "wheels/$(basename "$F")"
           done
-          ls -la wheels
+          ls -lh wheels
 
-      - name: Compile UI resources
+      - name: Compile Qt resources
         run: pyside6-rcc --no-compress resources.qrc -o rc_resources.py
 
       - name: Build APK
         run: |
           set -o pipefail
-          PY=$(ls wheels/pyside6-*aarch64.whl | head -1)
-          SH=$(ls wheels/shiboken6-*aarch64.whl | head -1)
-          # 1) create the deploy config first so we can set our own app icon
-          pyside6-android-deploy --name DayDone --wheel-pyside "$PY" --wheel-shiboken "$SH" --force --init || true
+          PY=$(find wheels -maxdepth 1 -name 'pyside6-*android_aarch64.whl' -print -quit)
+          SH=$(find wheels -maxdepth 1 -name 'shiboken6-*android_aarch64.whl' -print -quit)
+          test -n "$PY" && test -n "$SH"
+          # Initialize deployment config, but do not mask failures in the real build.
+          pyside6-android-deploy --name DayDone --wheel-pyside "$PY" --wheel-shiboken "$SH" --force --init
           if [ -f pysidedeploy.spec ]; then
             sed -i "s|^icon = .*|icon = $PWD/icon.png|" pysidedeploy.spec
           fi
-          # 2) real build via our wrapper (adds sqlite3 + notification permission). `yes` answers the Android SDK licence prompt ("Accept? (y/N)")
-          { yes 2>/dev/null || true; } | python tools/android_build.py --name DayDone --wheel-pyside "$PY" --wheel-shiboken "$SH" --force -v 2>&1 | tee build.log
+          python tools/android_build.py --name DayDone --wheel-pyside "$PY" --wheel-shiboken "$SH" --force -v 2>&1 | tee build.log
 
-      - name: Collect APK/AAB files
+      - name: Collect APK files
         if: always()
         run: |
           mkdir -p out
-          find / \( -name "*.apk" -o -name "*.aab" \) -not -path "/proc/*" -not -path "/sys/*" -not -path "*/android-sdk/*" -not -path "*/sdk/*/platforms/*" 2>/dev/null | tee found.txt
-          while read -r f; do cp "$f" out/ || true; done < found.txt
-          echo "---- files in out/"; ls -la out
-          echo "---- project dir"; ls -la
-          echo "---- spec file"; cat pysidedeploy.spec 2>/dev/null | head -60 || true
+          find "$GITHUB_WORKSPACE" -type f -name '*.apk' -not -path '*/out/*' -print -exec cp '{}' out/ \; 2>/dev/null || true
+          echo '---- APK files'; ls -lh out
+          echo '---- deployment spec'; cat pysidedeploy.spec 2>/dev/null | head -80 || true
 
       - name: Fail if no APK was produced
         run: |
-          ls out/*.apk >/dev/null 2>&1 || { echo "No APK produced - see build.log artifact"; exit 1; }
+          ls out/*.apk >/dev/null 2>&1 || { echo 'No APK produced; inspect build-log artifact.'; exit 1; }
 
-      - name: Upload APK
-        uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v4
         with:
           name: DayDone-apk
-          path: out/
-          include-hidden-files: true
+          path: out/*.apk
           if-no-files-found: error
 
-      - name: Upload build log
+      - name: Upload build diagnostics
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: build-log
+          name: build-diagnostics
           path: |
             build.log
-            found.txt
             pysidedeploy.spec
           if-no-files-found: ignore

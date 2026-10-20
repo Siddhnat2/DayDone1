@@ -3,6 +3,7 @@
     <file>icon.png</file>
     <file>qml/qmldir</file>
     <file>qml/main.qml</file>
+    <file>qml/imports.qml</file>
     <file>qml/Theme.qml</file>
     <file>qml/Glyph.qml</file>
     <file>qml/AppButton.qml</file>

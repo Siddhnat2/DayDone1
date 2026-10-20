@@ -139,9 +139,16 @@ class Backend(QObject):
                 if important:
                     lines.append("Important: " + ", ".join(important))
                 title = ("🔥 " if t["priority"] == 3 else "⏰ ") + t["title"]
-                notifier.notify(title, "\n".join(lines), nid=t["id"])
-                self.db.mark_notified(t["id"], today)
-                self.toast.emit(f"Due now: {t['title']}")
+                try:
+                    # Do not record a reminder as delivered when Android rejected it
+                    # (for example, notifications are disabled or JNI is unavailable).
+                    delivered = notifier.notify(title, "\n".join(lines), nid=t["id"])
+                except Exception:
+                    traceback.print_exc()
+                    delivered = False
+                if delivered:
+                    self.db.mark_notified(t["id"], today)
+                    self.toast.emit(f"Due now: {t['title']}")
 
 
 ERROR_QML = b"""

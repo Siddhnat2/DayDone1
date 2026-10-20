@@ -28,9 +28,13 @@ def _patched_init(self, spec_file, cfg):
     _original_init(self, spec_file, cfg)
 
     reqs = [r.strip() for r in (self.get_value("app", "requirements", True) or "").split(",") if r.strip()]
-    for r in EXTRA_REQUIREMENTS:
+    # python-for-android must process optional stdlib modules (notably
+    # sqlite3/_sqlite3) BEFORE python3 is built. Putting sqlite3 after python3
+    # can produce an APK that installs but exits at startup with
+    # "No module named _sqlite3". Keep these recipes at the front.
+    for r in reversed(EXTRA_REQUIREMENTS):
         if r not in reqs:
-            reqs.insert(1, r)                      # after python3
+            reqs.insert(0, r)
     self.set_value("app", "requirements", ",".join(reqs), raise_warning=False)
 
     perms = [p.strip() for p in (self.get_value("app", "android.permissions", True) or "").split(",")
