@@ -34,21 +34,22 @@ jobs:
           VER=$(python -c "import PySide6; print(PySide6.__version__)")
           echo "PySide6 $VER"
           BASE="https://download.qt.io/official_releases/QtForPython"
-          # find the android wheel directory/files for this version
+          mkdir -p wheels
           for P in pyside6 shiboken6; do
-            DIR=$(curl -s "$BASE/$P/" | grep -o "href=\"[^\"]*${VER%.*}[^\"]*android[^\"]*/\?\"" | head -1 | cut -d'"' -f2 || true)
-            echo "$P dir: $DIR"
+            F=$(curl -sL "$BASE/$P/" | grep -o "href=\"[^\"]*${VER}[^\"]*android_aarch64\.whl\"" | head -1 | cut -d'"' -f2)
+            echo "$P -> $F"
+            if [ -z "$F" ]; then
+              echo "ERROR: no aarch64 Android wheel found for $P $VER. Available android files:"
+              curl -sL "$BASE/$P/" | grep -o 'href="[^"]*android[^"]*"' | head -30
+              exit 1
+            fi
+            wget -q "$BASE/$P/$F" -O "wheels/$F"
           done
-          mkdir -p wheels && cd wheels
-          # Wheel file names follow: PySide6-<ver>-<ver>-cp311-cp311-android_aarch64.whl
-          wget -q -r -np -nd -A "*cp311*android_aarch64.whl" "$BASE/pyside6/PySide6-${VER}-${VER}-android/" || true
-          wget -q -r -np -nd -A "*cp311*android_aarch64.whl" "$BASE/shiboken6/shiboken6-${VER}-${VER}-android/" || true
-          ls -la
-          ls PySide6-*aarch64.whl shiboken6-*aarch64.whl || { echo "ERROR: Android wheels were not downloaded"; exit 1; }
+          ls -la wheels
 
       - name: Build APK
         run: |
-          PY=$(ls wheels/PySide6-*aarch64.whl | head -1)
+          PY=$(ls wheels/pyside6-*aarch64.whl | head -1)
           SH=$(ls wheels/shiboken6-*aarch64.whl | head -1)
           pyside6-android-deploy --name DayDone --wheel-pyside "$PY" --wheel-shiboken "$SH" --force -v
 
