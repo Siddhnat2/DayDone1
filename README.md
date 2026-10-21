@@ -21,14 +21,12 @@ Layout
 - qml/         UI: main.qml + reusable components (Theme, TaskCard, AppField, Segmented, Stepper, ...)
 - icon.png     512px app icon
 
-Android build notes
-- The Android wrapper orders the `sqlite3` recipe before `python3` to avoid a missing `_sqlite3`
-  extension at startup.
-- `qml/imports.qml` is a deployment import manifest for the Qt Quick modules used by the UI.
-- Run `python -m unittest discover -s tests -v` for database and build-regression checks.
-- See `BUILD_APK.md` for build steps and Android crash-log collection.
-
 Known limitation
 Reminders are checked every 30 s by an in-app timer, so they fire while the app process is
-running. For guaranteed delivery after the app is force-stopped or killed, add native scheduled
-alarms and a BroadcastReceiver.
+running. For guaranteed delivery after the app is swiped away, add an Android AlarmManager
+(+ BroadcastReceiver in Java, bundled via the Android deploy `jar`/`aar` options).
+
+Crash safety (v1.3)
+- On launch the app records its start-up steps. If a launch never finishes starting, the next launch shows a
+  crash report (steps reached + Android log lines, with a Copy button), switches to software rendering and
+  offers "Open app". Files live in the app's private data folder: state.json, trace.txt, crash.txt.

@@ -47,4 +47,4 @@ def notify(title: str, text: str, nid: int = 1) -> bool:
             print("notification failed:", e)
             return False
     print(f"[notification] {title} — {text}")
-    return True  # console fallback counts as handled; avoids repeated desktop alerts
+    return False
